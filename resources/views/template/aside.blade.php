@@ -271,13 +271,7 @@
                         <li class="nav-item">
                             <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Modificar Recepcionado</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/layout/boxed.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Hoja de Trabajo</p>
+                                <p>Mapa De Ubicaciones</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -292,19 +286,31 @@
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Carga de transporte</p>
+                                        <p>Stock de Artículos Almacenados</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Descarga de Transporte</p>
+                                        <p>Stock General</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Estado de Waybills</p>
+                                        <p>Ubicaciones Disponibles</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Ubicaciones Usadas</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Ubicaciones por Artículo</p>
                                     </a>
                                 </li>
 
@@ -322,25 +328,221 @@
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Diferencia en Transporte</p>
+                                        <p>Cta. cte. Artículo</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Diferencia Ingreso & Recepción</p>
+                                        <p>Cta. cte Ubicaciones</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Estado en Transito</p>
+                                        <p>Cta. cte. Cliente</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Movimiento Mensual Unidades</p>
                                     </a>
                                 </li>
 
                             </ul>
                         </li>
 
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">
+                        <i class="nav-icon fas fa-copy"></i>
+                        <p>
+                            Inventario
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Crea Toma de Inventario</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Actualiza toma de Inventario</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    Consultas
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Consulta Toma Inventario</p>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    Informes
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Diferencia de Ubicación</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>xTek v/s MIMS</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">
+                        <i class="nav-icon fas fa-copy"></i>
+                        <p>
+                            Despachos
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Mantención Pedidos</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Asignar Operador</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Estado de Preparación</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Entrega en Ventana</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Entrega no Catalogados</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    Consultas
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Estado de Picking</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Pedidos Preparados</p>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    Informes
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Entrega en Ventana</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Concilianción de Despacho</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Reingreso de Artículos</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">
+                        <i class="nav-icon fas fa-copy"></i>
+                        <p>
+                            Etiquetas
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Usuarios</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Ubicaciones</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Bultos</p>
+                            </a>
+                        </li>
+
+                          
                     </ul>
                 </li>
 
