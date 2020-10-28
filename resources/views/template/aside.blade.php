@@ -32,7 +32,7 @@
 
         <!-- Sidebar Menu -->
         <nav class="mt-2">
-            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <ul class="nav nav-pills nav-sidebar flex-column nav-compact text-sm nav-child-indent" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- Add icons to the links using the .nav-icon class
                      with font-awesome or any other icon font library -->
                 <li class="nav-item">
@@ -86,7 +86,7 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
-                                    Manteción de Maestros
+                                    Mant. de Maestros
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
@@ -94,13 +94,13 @@
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Mantención de Artículos</p>
+                                        <p>Mant. de Artículos</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="./index2.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Mantención de Códigos de Barra</p>
+                                        <p>Mant. Códigos de Barra</p>
                                     </a>
 
 
@@ -109,7 +109,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Porteria
@@ -120,13 +120,13 @@
                         <li class="nav-item">
                             <a href="pages/layout/top-nav.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Control de Entrada y Salida</p>
+                                <p>Control de E/S</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Mantención de Transporte</p>
+                                <p>Mant. de Transporte</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -138,7 +138,7 @@
                         <li class="nav-item">
                             <a href="pages/layout/boxed.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Imprimir Documneto Transporte</p>
+                                <p>Documento de Transporte</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -153,7 +153,7 @@
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Moviento de Vehículos</p>
+                                        <p>Movimiento de Vehículos</p>
                                     </a>
                                 </li>
 
@@ -164,7 +164,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Recepción
@@ -175,7 +175,7 @@
                         <li class="nav-item">
                             <a href="pages/layout/top-nav.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Mantención de Documentos</p>
+                                <p>Mant. de Documentos</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -238,7 +238,7 @@
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Diferencia Ingreso & Recepción</p>
+                                        <p>Dif. Ingreso & Recepción</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -254,7 +254,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Almacenamiento
@@ -265,7 +265,7 @@
                         <li class="nav-item">
                             <a href="pages/layout/top-nav.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Mantención de Documentos</p>
+                                <p>Mant. de Documentos</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -346,7 +346,7 @@
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Movimiento Mensual Unidades</p>
+                                        <p>Mov. Mensual Unidades</p>
                                     </a>
                                 </li>
 
@@ -356,7 +356,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Inventario
@@ -421,7 +421,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Despachos
@@ -432,7 +432,7 @@
                         <li class="nav-item">
                             <a href="pages/layout/top-nav.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Mantención Pedidos</p>
+                                <p>Mant. Pedidos</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -501,7 +501,7 @@
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Concilianción de Despacho</p>
+                                        <p>Conciliación de Despacho</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -515,7 +515,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Etiquetas
@@ -524,25 +524,23 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav.html" class="nav-link">
+                            <a href="etiq_usuarios" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Usuarios</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="etiq_ubicaciones" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Ubicaciones</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="etiq_bultos" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Bultos</p>
                             </a>
                         </li>
-
-                          
                     </ul>
                 </li>
 
