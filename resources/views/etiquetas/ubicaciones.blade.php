@@ -26,7 +26,7 @@
                         @csrf
                         <div class="row">
                             <div class="col-md-12 form-group">
-                                <label for="bodegaBT">Bodega</label>
+                                <label for="bodegaUB">Bodega</label>
                                 <select id="bodegaUB" name="bodegaUB" class="form-control form-control-sm">
                                 <option value=""> :: SELECCIONE :: </option>
                                 </select>

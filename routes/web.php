@@ -19,9 +19,12 @@ Route::get('/', function () {
 
 Route::get('prueba','PruebaController@listapersonas');
 
+/** Rutas del modulo Administracion **/
+Route::view('rol.config','configuracion/roles');
+
 /** Rutas del modulo Etiquetas **/
 Route::view('etiquetas', 'etiquetas/index');
-Route::view('etiq_ubicaciones', 'etiquetas/ubicaciones');
-Route::view('etiq_bultos', 'etiquetas/bultos');
-Route::view('etiq_usuarios', 'etiquetas/usuarios');
+Route::view('etiq.ubicaciones', 'etiquetas/ubicaciones');
+Route::view('etiq.bultos', 'etiquetas/bultos');
+Route::view('etiq.usuarios', 'etiquetas/usuarios');
 

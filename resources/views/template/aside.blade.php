@@ -54,7 +54,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="rol.config" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Roles</p>
                                     </a>
@@ -524,19 +524,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="etiq_usuarios" class="nav-link">
+                            <a href="etiq.usuarios" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Usuarios</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="etiq_ubicaciones" class="nav-link">
+                            <a href="etiq.ubicaciones" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Ubicaciones</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="etiq_bultos" class="nav-link">
+                            <a href="etiq.bultos" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Bultos</p>
                             </a>
