@@ -19,8 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="implementacion del panel de control">
+    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="implementacion del panel de con">
+      <change beforePath="$PROJECT_DIR$/.idea/App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/template/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/aside.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +145,7 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/yajra/laravel-pdo-via-oci8" />
       <path value="$PROJECT_DIR$/vendor/yajra/laravel-oci8" />
+      <path value="$PROJECT_DIR$/vendor/nwidart/laravel-modules" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jFckDpAxeqBnQZZTqKCJlFK0vO" />
@@ -159,7 +164,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -184,7 +190,12 @@
       <workItem from="1603764563840" duration="798000" />
       <workItem from="1603767666548" duration="590000" />
       <workItem from="1603814951921" duration="590000" />
-      <workItem from="1603827589899" duration="7874000" />
+      <workItem from="1603827589899" duration="8093000" />
+      <workItem from="1603840269307" duration="33000" />
+      <workItem from="1603940656391" duration="3364000" />
+      <workItem from="1603991355361" duration="998000" />
+      <workItem from="1603993840294" duration="809000" />
+      <workItem from="1603995479698" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="implementacion del panel de control">
       <created>1603832863806</created>
@@ -220,16 +231,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="implementacion del panel de control" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementacion del panel de control" />
+    <MESSAGE value="implementacion del panel de con" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementacion del panel de con" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="8" key="SettingsEditor" timestamp="1603834201660">
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1603947374989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603834201660" />
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603947374989" />
+    <state x="109" y="0" key="SettingsEditor" timestamp="1603995542766">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="109" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603995542766" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1603833136003">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603833136003" />
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603947935323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1603947935323" />
   </component>
 </project>
