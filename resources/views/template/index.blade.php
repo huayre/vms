@@ -34,9 +34,14 @@
         @include('template.aside')
         <!-- Main content -->
         <div class="content-wrapper">
+            <div class="content-header">
+                <div class="container-fluid">
+                    @yield('header_content')
+                </div>
+            </div>
             <section class="content">
                 <div class="container-fluid">
-                    @section('content')
+                    @yield('content')
                 </div>
             </section>
         </div>
