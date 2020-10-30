@@ -3,7 +3,6 @@
 @section('header_content')
     @include('administracion::roles.modal_agregar')
     @include('administracion::roles.modal_editar')
-    @include('administracion::roles.modal_eliminar')
     <div class="row mb-2">
         <div class="col-sm-6">
             <h1 class="m-0 text-dark"></h1>
@@ -64,7 +63,7 @@
                             <td>ADMINISTRADOR</td>
                             <td>
                                 <button type="button" class="btn btn-sm btn-info mt-1" id="editar" data-toggle='modal' data-target='#modal-editar-rol'><i class="fas fa-edit"></i> Editar</button>
-                                <button type="button" class="btn btn-sm btn-danger mt-1" id="eliminar" data-toggle='modal' data-target='#modal-eliminar-rol'><i class="fas fa-times-circle"></i> Eliminar</button>
+                                <button  class="btn btn-sm btn-danger " onclick="AlertaEliminar()"><i class="fas fa-times-circle"></i> Eliminar</button>
                             </td>
                         </tr>
                         </tbody>
@@ -73,4 +72,29 @@
             </div>
         </div>
     </div>
+@endsection
+@section('script')
+    <script>
+        function AlertaEliminar()
+        {
+            Swal.fire({
+                title: 'Estas segúro de eliminar ?',
+                text: "No volveras a usar este rol!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Si, Borralo!',
+                cancelButtonText: 'Cancelar'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire(
+                        'Eliminado!',
+                        'El rol fue eliminado correctamente.',
+                        'success'
+                    )
+                }
+            })
+        }
+    </script>
 @endsection

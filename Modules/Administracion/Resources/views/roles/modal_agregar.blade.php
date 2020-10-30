@@ -1,7 +1,7 @@
 <div id="modal-create-rol" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
-            <form id="formRL" method="POST">
+            <form  method="POST">
                 <div class="modal-header">
                     <h4 class="modal-title">REGISTRAR ROL</h4>
                     <div class="card-tools">
@@ -12,12 +12,12 @@
                 </div>
                 <div class="modal-body">
                     @csrf
-                    <input type="hidden" id="rol" name="rol" value="">
+                    <input type="hidden"  name="rol" value="">
 
                     <div class="row">
                         <div class="col-md-12 form-group">
                             <label for="rol_nombre">DESCRIPCIÓN</label>
-                            <input type="text" id="rol_nombre" name="rol_nombre" class="form-control" placeholder="Descripción del rol" value="">
+                            <input type="text" name="rol_nombre" class="form-control" placeholder="Descripción del rol" value="">
                         </div>
                     </div>
                 </div>
