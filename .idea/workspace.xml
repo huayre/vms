@@ -20,7 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="integracion de paquete (Laravel Modules)">
+      <change afterPath="$PROJECT_DIR$/public/packages/particles.js/appparticles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Administracion/Http/Controllers/AdministracionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Administracion/Http/Controllers/AdministracionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules_statuses.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules_statuses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +154,7 @@
       <path value="$PROJECT_DIR$/vendor/yajra/laravel-pdo-via-oci8" />
       <path value="$PROJECT_DIR$/vendor/yajra/laravel-oci8" />
       <path value="$PROJECT_DIR$/vendor/nwidart/laravel-modules" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jFckDpAxeqBnQZZTqKCJlFK0vO" />
@@ -190,7 +204,11 @@
       <workItem from="1603940656391" duration="3364000" />
       <workItem from="1603991355361" duration="998000" />
       <workItem from="1603993840294" duration="809000" />
-      <workItem from="1603995479698" duration="771000" />
+      <workItem from="1603995479698" duration="3403000" />
+      <workItem from="1604011373238" duration="2499000" />
+      <workItem from="1604014483114" duration="907000" />
+      <workItem from="1604024260929" duration="1205000" />
+      <workItem from="1604064905446" duration="5196000" />
     </task>
     <task id="LOCAL-00001" summary="implementacion del panel de control">
       <created>1603832863806</created>
@@ -213,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603995850077</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="integracion de paquete (Laravel Modules)">
+      <created>1603996329785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603996329785</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,14 +267,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603947374989" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1603996436741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1603996436741" />
+    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1603996436750">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1603996436750" />
     <state x="109" y="0" key="SettingsEditor" timestamp="1603995542766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="109" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603995542766" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1603995643166">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1603996715109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603995643166" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603996715109" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603947935323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/** Rutas para la Autenticacion **/
+Auth::routes(['register'=>false]);
+
+
+
 Route::get('prueba','PruebaController@listapersonas');
 
 /** Rutas del modulo Administracion **/
@@ -28,3 +33,7 @@ Route::view('etiq.ubicaciones', 'etiquetas/ubicaciones');
 Route::view('etiq.bultos', 'etiquetas/bultos');
 Route::view('etiq.usuarios', 'etiquetas/usuarios');
 
+
+
+
+Route::get('/home', 'HomeController@index')->name('home');
