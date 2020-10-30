@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="integracion de paquete (Laravel Modules)">
+    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="integracion de sweetalert2 y modificacion la alerta eliminar de roles">
+      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/usuarios/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/usuarios/modal_agregar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/usuarios/modal_editar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/Administracion/Resources/views/roles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/roles/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Administracion/Resources/views/roles/modal_agregar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/roles/modal_agregar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Administracion/Resources/views/roles/modal_editar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/roles/modal_editar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Administracion/Resources/views/roles/modal_eliminar.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Administracion/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Administracion/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/template/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/aside.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Modules/Administracion/Resources/views/usuarios" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -170,6 +171,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Administracion\Resources\views\usuarios" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -204,7 +210,7 @@
       <workItem from="1604014483114" duration="907000" />
       <workItem from="1604024260929" duration="1205000" />
       <workItem from="1604064905446" duration="11158000" />
-      <workItem from="1604094118869" duration="2393000" />
+      <workItem from="1604094118869" duration="4755000" />
     </task>
     <task id="LOCAL-00001" summary="implementacion del panel de control">
       <created>1603832863806</created>
@@ -234,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603996329785</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="integracion de sweetalert2 y modificacion la alerta eliminar de roles">
+      <created>1604096586114</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604096586114</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +269,8 @@
     <MESSAGE value="implementacion del panel de control" />
     <MESSAGE value="implementacion del panel de con" />
     <MESSAGE value="integracion de paquete (Laravel Modules)" />
-    <option name="LAST_COMMIT_MESSAGE" value="integracion de paquete (Laravel Modules)" />
+    <MESSAGE value="integracion de sweetalert2 y modificacion la alerta eliminar de roles" />
+    <option name="LAST_COMMIT_MESSAGE" value="integracion de sweetalert2 y modificacion la alerta eliminar de roles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604094576908">
@@ -279,10 +293,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="109" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603995542766" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1603996715109">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604098911203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603996715109" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604098911203" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603947935323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
