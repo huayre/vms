@@ -119,6 +119,17 @@
                 <i class="fas fa-th-large"></i>
             </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" data-toggle="dropdown" href="#">
+                <i class="fas fa-power-off"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right text-center">
+
+                <a href="" class="dropdown-item dropdown-footer">
+                    <h6>Cerrar Sesión</h6>
+                </a>
+            </div>
+        </li>
     </ul>
 </nav>
 <!-- /.navbar -->

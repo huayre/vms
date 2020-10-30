@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="integracion de paquete (Laravel Modules)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/template/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/navbar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +195,7 @@
       <workItem from="1604011373238" duration="2499000" />
       <workItem from="1604014483114" duration="907000" />
       <workItem from="1604024260929" duration="1205000" />
-      <workItem from="1604064905446" duration="6068000" />
+      <workItem from="1604064905446" duration="6728000" />
     </task>
     <task id="LOCAL-00001" summary="implementacion del panel de control">
       <created>1603832863806</created>
