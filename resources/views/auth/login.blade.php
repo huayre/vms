@@ -40,9 +40,9 @@
             <div class="card col-10 col-sm-10 col-md-6 col-lg-4 shadow ">
                 <div class="card-body px-0 ">
                     <div class="row">
-                       <img class="mx-auto mb-2" src="{{asset('images/login/logo.png')}} "width="200" height="100">
+                       <img class="mx-auto mb-2" src="{{asset('images/login/login.jfif')}} "width="350" height="70">
                     </div>
-                    <h4 class="text-center text-primary mb-2">Iniciar Sesión</h4>
+                    <h4 class="text-center text-primary mb-2 mt-3">Iniciar Sesión</h4>
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
                         <div class="form-group mt-4 mt-3">
