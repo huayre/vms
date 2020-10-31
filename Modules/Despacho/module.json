@@ -1,0 +1,13 @@
+{
+    "name": "Despacho",
+    "alias": "despacho",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Despacho\\Providers\\DespachoServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
