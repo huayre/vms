@@ -1,7 +1,7 @@
 @extends('template.index')
 
 @section('header_content')
-    @include('administracion::permisos.modal_modal-administrar_permisos')
+    @include('administracion::permisos_terminal.modal_modal-administrar_permisos_terminal')
     <div class="row mb-2">
         <div class="col-sm-6">
             <h1 class="m-0 text-dark"></h1>

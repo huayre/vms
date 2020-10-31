@@ -21,7 +21,7 @@
                             <label for="rol_nombre">ROL</label>
                             <p>ADMINSITRADOR</p>
                         </div>
-                        <div class="col-md-12" >
+                        <div class="col-md-12">
                             <p class="text-center text-primary h3">PROCESOS</p>
                             <div class="row">
                                 <div class="col-md-6">
