@@ -116,19 +116,19 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12" style="overflow-y: auto">
 							<table class="table table-striped table-bordered" id="dtModalDetalles">
 								<thead>
 									<tr>
-										<th style="width:10%" data-orderable="true">LINEA</th>
-										<th style="width:10%" data-orderable="true">CÓDIGO</th>
-										<th style="width:20%" data-orderable="true">ARTICULO</th>
-										<th style="width:10%" data-orderable="true">SOLICITADO</th>
-										<th style="width:10%" data-orderable="true">UNI. MEDIDA</th>
-										<th style="width:10%" data-orderable="true">UNIDADES</th>
-										<th style="width:10%" data-orderable="true">PREPARADO</th>
-										<th style="width:10%" data-orderable="true">DIFERENCIA</th>
-										<th style="width:10%" data-orderable="true">PICKING</th>
+										<th data-orderable="true">LINEA</th>
+										<th data-orderable="true">CÓDIGO</th>
+										<th data-orderable="true">ARTICULO</th>
+										<th data-orderable="true">SOLICITADO</th>
+										<th data-orderable="true">UNI. MEDIDA</th>
+										<th data-orderable="true">UNIDADES</th>
+										<th data-orderable="true">PREPARADO</th>
+										<th data-orderable="true">DIFERENCIA</th>
+										<th data-orderable="true">PICKING</th>
 									</tr>
 								</thead>
 								<tbody>

@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="{{asset('template/plugins/daterangepicker/daterangepicker.css')}}">
     <!-- summernote -->
     <link rel="stylesheet" href="{{asset('template/plugins/summernote/summernote-bs4.min.css')}}">
+    <!-- datatables -->
+    <link rel="stylesheet" href="{{asset('template/plugins/datatables-bs4/css/dataTables.bootstrap4.css')}}">
+    <link rel="stylesheet" href="{{asset('template/plugins/datatables-responsive/css/responsive.bootstrap4.css')}}">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
@@ -87,6 +90,12 @@
     {{-- <script src="{{asset('template/dist/js/pages/dashboard.js')}}"></script>--}}
     {{-- sweetalert2 --}}
     <script src="{{asset('packages/sweetalert2/sweetalert2@10.js')}}"></script>
+    {{-- datatables --}}
+    <script src="{{asset('template/plugins/datatables/jquery.dataTables.js')}}"></script>
+    <script src="{{asset('template/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js')}}"></script>
+    <script src="{{asset('template/plugins/datatables-responsive/js/dataTables.responsive.min.js')}}"></script>
+    <script src="{{asset('template/plugins/datatables-responsive/js/responsive.bootstrap4.min.js')}}"></script>
+    {{-- scripts de la vista --}}
     @yield('script')
 </body>
 </html>
