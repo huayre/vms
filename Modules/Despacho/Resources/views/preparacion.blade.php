@@ -1,4 +1,4 @@
-@extends('despacho::layouts.master')
+@extends('template.index')
 
 @section('header')
 <div class="row mb-2">
@@ -156,6 +156,6 @@
 </div>
 @endsection
 
-@section('loadJS')
+@section('script')
 	<script src="{{Module::asset('despacho:js/preparacion.js')}}"></script>
 @endsection

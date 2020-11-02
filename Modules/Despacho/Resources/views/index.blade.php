@@ -1,4 +1,4 @@
-@extends('despacho::layouts.master')
+@extends('template.index')
 
 @section('header')
 <div class="row mb-2">
