@@ -19,12 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="implementacion de permisos de terminal">
-      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/permisos_menu/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/permisos_terminal/modal_modal-administrar_permisos_terminal.blade.php" afterDir="false" />
+    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="implementacion de permisos de menú">
+      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/articulos/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/articulos/modal_agregar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/articulos/modal_editar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/codigo_barras/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/codigo_barras/modal_agregar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/codigo_barras/modal_editar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Administracion/Resources/views/permisos/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/permisos_terminal/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Administracion/Resources/views/permisos/modal_modal-administrar_permisos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/permisos_menu/modal_modal-administrar_permisos_menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/Administracion/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Administracion/Routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/template/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/aside.blade.php" afterDir="false" />
     </list>
@@ -161,7 +163,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Modules/Administracion/Resources/views/permisos_menu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Modules/Administracion/Resources/views/codigo_barras" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -174,6 +176,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Administracion\Resources\views\codigo_barras" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Administracion\Resources\views\articulos" />
       <recent name="E:\TRABAJOS\WMS\App\Modules\Administracion\Resources\views\permisos_menu" />
       <recent name="E:\TRABAJOS\WMS\App\Modules\Administracion\Resources\views\usuarios" />
     </key>
@@ -213,7 +217,11 @@
       <workItem from="1604064905446" duration="11158000" />
       <workItem from="1604094118869" duration="4928000" />
       <workItem from="1604099200112" duration="13000" />
-      <workItem from="1604150193467" duration="3438000" />
+      <workItem from="1604150193467" duration="7553000" />
+      <workItem from="1604179020166" duration="844000" />
+      <workItem from="1604200052738" duration="425000" />
+      <workItem from="1604289237370" duration="3996000" />
+      <workItem from="1604331641818" duration="464000" />
     </task>
     <task id="LOCAL-00001" summary="implementacion del panel de control">
       <created>1603832863806</created>
@@ -264,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604152770319</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="implementacion de permisos de menú">
+      <created>1604153913086</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604153913086</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +304,8 @@
     <MESSAGE value="integracion de sweetalert2 y modificacion la alerta eliminar de roles" />
     <MESSAGE value="implementacion de la gestion de usuarioss" />
     <MESSAGE value="implementacion de permisos de terminal" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementacion de permisos de terminal" />
+    <MESSAGE value="implementacion de permisos de menú" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementacion de permisos de menú" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604094576908">
@@ -312,10 +328,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="109" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603995542766" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604152782147">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604153929084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604152782147" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604153929084" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603947935323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
