@@ -16,3 +16,11 @@ Route::prefix('despacho')->group(function() {
 Route::prefix('despacho')->group(function() {
     Route::get('/preparacion', 'PedidoController@preparacion');
 });
+
+Route::prefix('despacho')->group(function() {
+    Route::get('/entrega_ventana', 'PedidoController@entrega_ventana');
+});
+
+Route::prefix('despacho')->group(function() {
+    Route::get('/no_catalogados', 'PedidoController@entrega_nocatalogados');
+});

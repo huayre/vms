@@ -129,8 +129,6 @@ class PedidoController extends Controller
 
 	/**
 	 * Asignación de pedidos.
-	 * @param int $id
-	 * @return Response
 	 */
 	public function asignacion()
 	{
@@ -143,14 +141,32 @@ class PedidoController extends Controller
 
 	/**
 	 * Estado de preparación 'pedidos'.
-	 * @param int $id
-	 * @return Response
 	 */
 	public function preparacion()
 	{
 		return view('despacho::preparacion', [
 			'bodegaAO' => $this->getCombo("bodegaAO"),
 			'estadoPedidoAO' => $this->getCombo("estadoPedidoAO")
+		]);
+	}
+
+	/**
+	 * Entrega en ventana
+	 */
+	public function entrega_ventana()
+	{
+		return view('despacho::entrega_ventana', [
+			'bodegaAO' => $this->getCombo("bodegaAO")
+		]);
+	}
+
+	/**
+	 * Entrega no catalogados
+	 */
+	public function entrega_nocatalogados()
+	{
+		return view('despacho::entrega_no_catalogados', [
+			'bodegaAO' => $this->getCombo("bodegaAO")
 		]);
 	}
 }

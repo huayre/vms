@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/etiqueta",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Etiqueta\\Providers\\EtiquetaServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Etiqueta\\": ""
+        }
+    }
+}

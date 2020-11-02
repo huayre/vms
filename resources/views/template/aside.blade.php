@@ -448,13 +448,13 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/despacho/entrega_ventana" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Entrega en Ventana</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/despacho/no_catalogados" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Entrega no Catalogados</p>
                             </a>
@@ -524,19 +524,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav.html" class="nav-link">
+                            <a href="/etiqueta/usuarios" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Usuarios</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/etiqueta/ubicaciones" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Ubicaciones</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/etiqueta/bultos" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Bultos</p>
                             </a>

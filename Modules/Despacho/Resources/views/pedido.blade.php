@@ -1,6 +1,6 @@
 @extends('template.index')
 
-@section('header')
+@section('header_content')
 <div class="row mb-2">
 	<div class="col-sm-6">
 		<h1 class="m-0 text-dark"></h1>
@@ -96,7 +96,7 @@
 					<div class="row justify-content-end">
 						<div class="col-auto form-group">
 							<button type="button" class="btn btn-default" id="limpiarPD"> <i class="fas fa-times-circle"></i> Limpiar </button>
-							<button type="button" class="btn btn-success" id="buscarPD"> <i class="fas fa-search"></i> Buscar</button>
+							<button type="button" class="btn btn-info" id="buscarPD"> <i class="fas fa-search"></i> Buscar</button>
 						</div>
 					</div>
 				</form>
