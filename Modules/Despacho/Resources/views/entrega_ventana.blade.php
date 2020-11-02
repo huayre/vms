@@ -19,7 +19,7 @@
 	<div class="col-md-12">
 		<div class="card card-dark">
 			<div class="card-header">
-				<h3 class="card-title">FILTRAR PEDIDOS</h3>
+				<h3 class="card-title">FILTRAR ENTREGAS EN VENTANA</h3>
 				<div class="card-tools">
 	        <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
 	        	<i class="fas fa-minus"></i>
@@ -31,12 +31,12 @@
 					@csrf
 					<div class="row">
 						<div class="col-md-2 form-group">
-							<label for="fechaEmiIniEV">Fecha de emisión</label>
-							<input type="date" id="fechaEmiIniEV" name="fechaEmiIniEV" value="" class="form-control form-control-sm" placeholder="{{date('Y-m-d')}}"/>
+							<label for="fechaEntregaIniEV">Fecha de entrega</label>
+							<input type="date" id="fechaEntregaIniEV" name="fechaEntregaIniEV" value="" class="form-control form-control-sm" placeholder="{{date('Y-m-d')}}"/>
 						</div>
 						<div class="col-md-2 form-group">
-							<label for="fechaEmiIniEV">Fecha de emisión</label>
-							<input type="date" id="fechaEmiFinEV" name="fechaEmiFinEV" value="" class="form-control form-control-sm" placeholder="{{date('Y-m-d')}}"/>
+							<label for="fechaEntregaFinEV">Fecha de entrega</label>
+							<input type="date" id="fechaEntregaFinEV" name="fechaEntregaFinEV" value="" class="form-control form-control-sm" placeholder="{{date('Y-m-d')}}"/>
 						</div>
 						<div class="col-md-2 form-group">
 							<label for="bodegaEV">Bodega</label>
@@ -74,22 +74,26 @@
 				<table class="table table-striped table-bordered" id="dtResultIndex">
 					<thead>
 						<tr>
-							<th style="width:15%" data-orderable="true">ESTADO</th>
-							<th style="width:15%" data-orderable="true">NRO. PEDIDO</th>
-							<th style="width:15%" data-orderable="true">DOCUMENTO</th>
-							<th style="width:15%" data-orderable="true">EMISIÓN</th>
-							<th style="width:15%" data-orderable="true">DESPACHO</th>
-							<th style="width:25%" data-orderable="true">CLIENTE</th>
+							<th style="width:10%" data-orderable="true">ESTADO</th>
+							<th style="width:10%" data-orderable="true">DOCUMENTO</th>
+							<th style="width:10%" data-orderable="true">EMISIÓN</th>
+							<th style="width:10%" data-orderable="true">DESPACHO</th>
+							<th style="width:20%" data-orderable="true">CLIENTE</th>
+							<th style="width:20%" data-orderable="true">DIRECCIÓN</th>
+							<th style="width:15%" data-orderable="true">CIUDAD</th>
+							<th style="width:05%" data-orderable="true"></th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td>ESTADO</td>
-							<td>PEDIDO</td>
 							<td>DOCUMENTO</td>
-							<td>EMISION</td>
+							<td>EMISIÓN</td>
 							<td>DESPACHO</td>
 							<td>CLIENTE</td>
+							<td>DIRECCIÓN</td>
+							<td>CIUDAD</td>
+							<td> <button type="button" class="btn btn-info" onclick="modalEntregaDetalle(1)"><i class="fas fa-edit"></i></button> </td>
 						</tr>
 					</tbody>
 				</table>
@@ -115,28 +119,22 @@
 							<table class="table table-striped table-bordered" id="dtModalDetalles">
 								<thead>
 									<tr>
-										<th data-orderable="true">LINEA</th>
 										<th data-orderable="true">CÓDIGO</th>
 										<th data-orderable="true">ARTICULO</th>
-										<th data-orderable="true">SOLICITADO</th>
 										<th data-orderable="true">UNI. MEDIDA</th>
-										<th data-orderable="true">UNIDADES</th>
-										<th data-orderable="true">PREPARADO</th>
-										<th data-orderable="true">DIFERENCIA</th>
-										<th data-orderable="true">PICKING</th>
+										<th data-orderable="true">CANTIDAD</th>
+										<th data-orderable="true">FECHA ENTREGA</th>
+										<th data-orderable="true">OPERADOR</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td>LINEA</td>
 										<td>CÓDIGO</td>
 										<td>ARTICULO</td>
-										<td>SOLICITADO</td>
 										<td>UNI. MEDIDA</td>
-										<td>UNIDADES</td>
-										<td>PREPARADO</td>
-										<td>DIFERENCIA</td>
-										<td>PICKING</td>
+										<td>CANTIDAD</td>
+										<td>FECHA ENTREGA</td>
+										<td>OPERADOR</td>
 									</tr>
 								</tbody>
 							</table>

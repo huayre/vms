@@ -24,3 +24,15 @@ Route::prefix('despacho')->group(function() {
 Route::prefix('despacho')->group(function() {
     Route::get('/no_catalogados', 'PedidoController@entrega_nocatalogados');
 });
+
+Route::prefix('despacho')->group(function() {
+    Route::get('/picking', 'PedidoController@picking');
+});
+
+Route::prefix('despacho')->group(function() {
+    Route::get('/conciliacion_despacho', 'PedidoController@conciliacion_despacho');
+});
+
+Route::prefix('despacho')->group(function() {
+    Route::get('/reingreso_articulos', 'PedidoController@reingreso_articulos');
+});

@@ -38,3 +38,7 @@ function despachar(){
 		}
 	});
 }
+
+function modalEntregaDetalle(id) {
+	$("#modalDetalles").modal("toggle");
+}

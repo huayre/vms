@@ -469,13 +469,13 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/despacho/picking" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Estado de Picking</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Pedidos Preparados</p>
                                     </a>
@@ -493,19 +493,19 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/despacho/entrega_ventana" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Entrega en Ventana</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/despacho/conciliacion_despacho" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Concilianción de Despacho</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/despacho/reingreso_articulos" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Reingreso de Artículos</p>
                                     </a>
