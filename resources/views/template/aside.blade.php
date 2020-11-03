@@ -365,13 +365,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav.html" class="nav-link">
+                            <a href="/inventario/toma_inventario" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Crea Toma de Inventario</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/inventario/toma_inventario" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Actualiza toma de Inventario</p>
                             </a>
@@ -386,7 +386,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/inventario/consulta_ti" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Consulta Toma Inventario</p>
                                     </a>
@@ -404,13 +404,13 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/inventario/diferencias_ti" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Diferencia de Ubicación</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/inventario/xtek_mims" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>xTek v/s MIMS</p>
                                     </a>

@@ -27,20 +27,20 @@
 	      </div>
 			</div>
 			<div class="card-body text-sm">
-				<form action="" id="formEV" method="post">
+				<form action="" id="formRE" method="post">
 					@csrf
 					<div class="row">
 						<div class="col-md-2 form-group">
-							<label for="fechaReingresoIniEV">Fecha de reingreso</label>
-							<input type="date" id="fechaReingresoIniEV" name="fechaReingresoIniEV" value="" class="form-control form-control-sm" placeholder="{{date('Y-m-d')}}"/>
+							<label for="fechaReingresoIniRE">Fecha de reingreso</label>
+							<input type="date" id="fechaReingresoIniRE" name="fechaReingresoIniRE" value="" class="form-control form-control-sm" placeholder="{{date('Y-m-d')}}"/>
 						</div>
 						<div class="col-md-2 form-group">
-							<label for="fechaReingresoFinEV">Fecha de reingreso</label>
-							<input type="date" id="fechaReingresoFinEV" name="fechaReingresoFinEV" value="" class="form-control form-control-sm" placeholder="{{date('Y-m-d')}}"/>
+							<label for="fechaReingresoFinRE">Fecha de reingreso</label>
+							<input type="date" id="fechaReingresoFinRE" name="fechaReingresoFinRE" value="" class="form-control form-control-sm" placeholder="{{date('Y-m-d')}}"/>
 						</div>
 						<div class="col-md-2 form-group">
-							<label for="bodegaEV">Bodega</label>
-							<select id="bodegaEV" name="bodegaEV" class="form-control form-control-sm">
+							<label for="bodegaRE">Bodega</label>
+							<select id="bodegaRE" name="bodegaRE" class="form-control form-control-sm">
 								@forelse ($bodegaAO as $key => $val)
 									<option value="{{$val->id}}">{{$val->descripcion}}</option>
 									@empty
@@ -49,12 +49,15 @@
 							</select>
 						</div>
 						<div class="col-md-2 form-group">
-							<label for="nroDocumentoEV">Artículo</label>
-							<input type="text" id="nroDocumentoEV" name="nroDocumentoEV" value="" class="form-control form-control-sm" placeholder="Número de documento"/>
+							<label for="skuRE">Artículo</label>
+							<input type="text" id="skuRE" name="skuRE" value="" class="form-control form-control-sm" placeholder="Código del artículo"/>
 						</div>
 						<div class="col-md-2 form-group align-self-end">
-							<button type="button" class="btn btn-default" id="limpiarEV"> <i class="fas fa-times-circle"></i> Limpiar </button>
-							<button type="button" class="btn btn-info" id="buscarEV"> <i class="fas fa-search"></i> Buscar</button>
+							<input type="text" id="nombreRE" name="nombreRE" value="" class="form-control form-control-sm" placeholder="Nombre del artículo" readonly/>
+						</div>
+						<div class="col-md-2 form-group align-self-end">
+							<button type="button" class="btn btn-default" id="limpiarRE"> <i class="fas fa-times-circle"></i> Limpiar </button>
+							<button type="button" class="btn btn-info" id="buscarRE"> <i class="fas fa-search"></i> Buscar</button>
 						</div>
 					</div>
 				</form>
