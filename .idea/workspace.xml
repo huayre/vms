@@ -19,26 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="implementacion de mantencion de maestros de menú">
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/entrada_salida/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/entrada_salida/lista_documentos.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/entrada_salida/modal_ingresar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/entrada_salida/modal_salida.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/entrada_salida/ver_documentos.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/impri_document_transporte/detalle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/impri_document_transporte/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/mantencion_transporte/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/mantencion_transporte/modal_agregar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/mantencion_transporte/modal_editar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/movimiento_vehiculo/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/transportista/crear.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Administracion/Resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules_statuses.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules_statuses.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/aside.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="implementacion de mantencion de maestros de menú" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -233,6 +214,7 @@
       <workItem from="1604289237370" duration="3996000" />
       <workItem from="1604331641818" duration="15789000" />
       <workItem from="1604362304525" duration="12000" />
+      <workItem from="1604403351989" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="implementacion del panel de control">
       <created>1603832863806</created>
@@ -339,22 +321,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1604332077344" />
-    <state x="129" y="55" key="MergeDialog" timestamp="1603996436741">
+    <state x="129" y="55" key="MergeDialog" timestamp="1604403512279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1603996436741" />
-    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1603996436750">
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604403512279" />
+    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1604403512287">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1603996436750" />
+    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604403512287" />
     <state x="109" y="0" key="SettingsEditor" timestamp="1603995542766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="109" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603995542766" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604332294965">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604403608939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604332294965" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604403608939" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603947935323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
