@@ -1,0 +1,13 @@
+{
+    "name": "Almacenamiento",
+    "alias": "almacenamiento",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Almacenamiento\\Providers\\AlmacenamientoServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/almacenamiento",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Almacenamiento\\Providers\\AlmacenamientoServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Almacenamiento\\": ""
+        }
+    }
+}
