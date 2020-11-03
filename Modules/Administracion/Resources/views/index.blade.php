@@ -1,4 +1,4 @@
-@extends('administracion::roles.index.blade.php')
+@extends('administracion::roles.crear.blade.php')
 
 @section('content')
     <h1>Hello World</h1>

@@ -118,32 +118,32 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav.html" class="nav-link">
+                            <a href="{{route('entrada_salida')}}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Control de Entrada y Salida</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="{{route('mantencion_transporte')}}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Mantención de Transporte</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/boxed.html" class="nav-link">
+                            <a href="{{route('crear_transportista')}}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Ingresar Transportista</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/boxed.html" class="nav-link">
+                            <a href="{{route('impri_document_transporte')}}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Imprimir Documneto Transporte</p>
+                                <p>Imprimir Documento Transporte</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="nav-icon fas fa-copy"></i>
                                 <p>
                                     Consultas
                                     <i class="right fas fa-angle-left"></i>
@@ -151,7 +151,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="{{route('movimiento_vehiculo')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Moviento de Vehículos</p>
                                     </a>

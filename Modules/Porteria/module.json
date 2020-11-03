@@ -1,0 +1,13 @@
+{
+    "name": "Porteria",
+    "alias": "porteria",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Porteria\\Providers\\PorteriaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

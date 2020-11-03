@@ -19,15 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="implementacion de permisos de menú">
-      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/articulos/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/articulos/modal_agregar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/articulos/modal_editar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/codigo_barras/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/codigo_barras/modal_agregar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/codigo_barras/modal_editar.blade.php" afterDir="false" />
+    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="implementacion de mantencion de maestros de menú">
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/entrada_salida/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/entrada_salida/lista_documentos.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/entrada_salida/modal_ingresar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/entrada_salida/modal_salida.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/entrada_salida/ver_documentos.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/impri_document_transporte/detalle.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/impri_document_transporte/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/mantencion_transporte/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/mantencion_transporte/modal_agregar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/mantencion_transporte/modal_editar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/movimiento_vehiculo/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Porteria/Resources/views/transportista/crear.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Administracion/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Administracion/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Administracion/Resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Administracion/Resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules_statuses.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules_statuses.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/template/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/aside.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +172,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Modules/Administracion/Resources/views/codigo_barras" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Modules/Porteria/Resources/views/transportista" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -176,10 +185,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Porteria\Resources\views\transportista" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Porteria\Resources\views\mantencion_transporte" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Porteria\Resources\views\matencion_transporte" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Porteria\Resources\views\entrada_salida" />
       <recent name="E:\TRABAJOS\WMS\App\Modules\Administracion\Resources\views\codigo_barras" />
-      <recent name="E:\TRABAJOS\WMS\App\Modules\Administracion\Resources\views\articulos" />
-      <recent name="E:\TRABAJOS\WMS\App\Modules\Administracion\Resources\views\permisos_menu" />
-      <recent name="E:\TRABAJOS\WMS\App\Modules\Administracion\Resources\views\usuarios" />
     </key>
   </component>
   <component name="RunManager">
@@ -221,7 +231,8 @@
       <workItem from="1604179020166" duration="844000" />
       <workItem from="1604200052738" duration="425000" />
       <workItem from="1604289237370" duration="3996000" />
-      <workItem from="1604331641818" duration="464000" />
+      <workItem from="1604331641818" duration="15789000" />
+      <workItem from="1604362304525" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="implementacion del panel de control">
       <created>1603832863806</created>
@@ -279,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604153913086</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="implementacion de mantencion de maestros de menú">
+      <created>1604332283014</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604332283014</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,17 +323,22 @@
     <MESSAGE value="implementacion de la gestion de usuarioss" />
     <MESSAGE value="implementacion de permisos de terminal" />
     <MESSAGE value="implementacion de permisos de menú" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementacion de permisos de menú" />
+    <MESSAGE value="implementacion de mantencion de maestros de menú" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementacion de mantencion de maestros de menú" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="425" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604354285629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="425" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604354285629" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604094576908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604094576908" />
-    <state x="129" y="54" key="DiffContextDialog" timestamp="1603947374989">
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1604332077344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603947374989" />
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1604332077344" />
     <state x="129" y="55" key="MergeDialog" timestamp="1603996436741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -328,10 +351,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="109" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603995542766" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604153929084">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604332294965">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604153929084" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604332294965" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603947935323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
