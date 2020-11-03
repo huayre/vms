@@ -12,15 +12,3 @@ $(document).ready(function(){
 		order: [[ 0, "asc" ]]
 	});
 });
-
-function viewDetails(id) {
-	$("#modalDetalles").modal("toggle");
-	$('#dtModalDetalles').DataTable({
-		responsive: true,
-		destroy: true,
-		filter: false,
-		autoWidth: false,
-		language: langSpanish,
-		order: [[ 0, "asc" ]]
-	});
-}

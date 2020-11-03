@@ -8,7 +8,7 @@
 	<div class="col-sm-6">
 		<ol class="breadcrumb float-sm-right">
 			<li class="breadcrumb-item"><a href="#">Despachos</a></li>
-			<li class="breadcrumb-item active">Estado de preparación</li>
+			<li class="breadcrumb-item active">Estado de picking</li>
 		</ol>
 	</div>
 </div>
@@ -19,7 +19,7 @@
 	<div class="col-md-12">
 		<div class="card card-dark">
 			<div class="card-header">
-				<h3 class="card-title">FILTRAR PEDIDOS</h3>
+				<h3 class="card-title">FILTRAR PREPARACIÓN DE PICKING</h3>
 				<div class="card-tools">
 	        <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
 	        	<i class="fas fa-minus"></i>
@@ -47,8 +47,8 @@
 							<input type="text" id="nroDocumentoEP" name="nroDocumentoEP" value="" class="form-control form-control-sm mt-2" placeholder="Número de documento"/>
 						</div>
 						<div class="col-md-3 form-group">
-							<label for="estadoPedidoEP">Estado</label>
-							<select id="estadoPedidoEP" name="estadoPedidoEP" class="form-control form-control-sm">
+							<label for="estadoPrepEP">Estado de preparación</label>
+							<select id="estadoPrepEP" name="estadoPrepEP" class="form-control form-control-sm">
 								@forelse ($estadoPedidoAO as $key => $val)
 									<option value="{{$val->id}}">{{$val->descripcion}}</option>
 									@empty
@@ -74,27 +74,31 @@
 	      <h3 class="card-title">RESULTADOS</h3>
 	    </div>
 	    <div class="card-body text-sm" style="overflow-y: auto">
-				<table class="table table-striped table-bordered" id="dtResultPicking">
+				<table class="table table-striped table-bordered" id="dtResultIndex">
 					<thead>
 						<tr>
-							<th style="width:15%" data-orderable="true">ESTADO</th>
-							<th style="width:15%" data-orderable="true">NRO. PEDIDO</th>
 							<th style="width:15%" data-orderable="true">DOCUMENTO</th>
-							<th style="width:15%" data-orderable="true">EMISIÓN</th>
-							<th style="width:15%" data-orderable="true">DESPACHO</th>
+							<th style="width:15%" data-orderable="true">TIPO PEDIDO</th>
+							<th style="width:15%" data-orderable="true">NRO. PEDIDO</th>
+							<th style="width:15%" data-orderable="true">ESTADO</th>
+							<th style="width:15%" data-orderable="true">EMISOR</th>
+							<th style="width:15%" data-orderable="true">OPERADOR</th>
+							<th style="width:15%" data-orderable="true">INICIO PREP.</th>
 							<th style="width:20%" data-orderable="true">CLIENTE</th>
 							<th style="width:05%" data-orderable="false"></th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>ESTADO</td>
-							<td>PEDIDO</td>
 							<td>DOCUMENTO</td>
-							<td>EMISION</td>
-							<td>DESPACHO</td>
+							<td>TIPO PEDIDO</td>
+							<td>NRO. PEDIDO</td>
+							<td>ESTADO</td>
+							<td>EMISOR</td>
+							<td>OPERADOR</td>
+							<td>INICIO PREP.</td>
 							<td>CLIENTE</td>
-							<td> <button type="button" class="btn btn-info" onclick="viewDetailsPicking(1)"><i class="fas fa-file"></i></button> </td>
+							<td> <button type="button" class="btn btn-info" onclick="viewDetails(1)"><i class="fas fa-file"></i></button> </td>
 						</tr>
 					</tbody>
 				</table>
@@ -117,25 +121,31 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12" style="overflow-y: auto">
-							<table class="table table-striped table-bordered" id="dtModalDetallesPicking">
+							<table class="table table-striped table-bordered" id="dtModalDetalles">
 								<thead>
 									<tr>
-										<th data-orderable="false">LINEA</th>
-										<th data-orderable="false">CÓDIGO</th>
-										<th data-orderable="false">NOMBRE ARTÍCULO</th>
-										<th data-orderable="false">SOLICITADO</th>
-										<th data-orderable="false">PREPARADO</th>
-										<th data-orderable="false">DIFERENCIA</th>
+										<th data-orderable="true">LINEA</th>
+										<th data-orderable="true">CÓDIGO</th>
+										<th data-orderable="true">ARTICULO</th>
+										<th data-orderable="true">SOLICITADO</th>
+										<th data-orderable="true">UNI. MEDIDA</th>
+										<th data-orderable="true">UNIDADES</th>
+										<th data-orderable="true">PREPARADO</th>
+										<th data-orderable="true">DIFERENCIA</th>
+										<th data-orderable="true">PICKING</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<td>LINEA</td>
 										<td>CÓDIGO</td>
-										<td>NOMBRE ARTÍCULO</td>
+										<td>ARTICULO</td>
 										<td>SOLICITADO</td>
+										<td>UNI. MEDIDA</td>
+										<td>UNIDADES</td>
 										<td>PREPARADO</td>
 										<td>DIFERENCIA</td>
+										<td>PICKING</td>
 									</tr>
 								</tbody>
 							</table>
@@ -151,5 +161,5 @@
 @endsection
 
 @section('script')
-	<script src="{{Module::asset('despacho:js/app.js')}}"></script>
+	<script src="{{Module::asset('despacho:js/preparacion.js')}}"></script>
 @endsection

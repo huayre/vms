@@ -22,10 +22,6 @@ class PedidoController extends Controller
 				$val = array('WHAREHOUSE', 'RETURN-TO-SUP', 'SHORT-FORM', 'NORMAL-REQUIS');
 				$data = $this->armaCombo($val);
 				break;
-			case 'estado':
-				$val = array('PENDIENTE', 'ASIGNADO', 'PREPARADO', 'LISTO PARA DESPACHO', 'DESPACHADO');
-				$data = $this->armaCombo($val);
-				break;
 			case 'emisor':
 				$val = array('XTEK', 'MELTEK', 'CARRI');
 				$data = $this->armaCombo($val);
@@ -38,8 +34,17 @@ class PedidoController extends Controller
 				$val = array('TIPO X');
 				$data = $this->armaCombo($val);
 				break;
+			case 'estado':
+				$val = array('PENDIENTE', 'ASIGNADO', 'PREPARADO', 'LISTO PARA DESPACHO', 'DESPACHADO');
+				$data = $this->armaCombo($val);
+				break;
 			case 'estadoPedidoAO':
 				$val = array('NO ASIGNADO', 'ASIGNADO', 'TODOS');
+				$data = $this->armaCombo($val);
+				break;
+				break;
+			case 'estadoPicking':
+				$val = array('EN PROCESO', 'TODOS');
 				$data = $this->armaCombo($val);
 				break;
 		}
@@ -129,8 +134,6 @@ class PedidoController extends Controller
 
 	/**
 	 * Asignación de pedidos.
-	 * @param int $id
-	 * @return Response
 	 */
 	public function asignacion()
 	{
@@ -143,14 +146,64 @@ class PedidoController extends Controller
 
 	/**
 	 * Estado de preparación 'pedidos'.
-	 * @param int $id
-	 * @return Response
 	 */
 	public function preparacion()
 	{
 		return view('despacho::preparacion', [
 			'bodegaAO' => $this->getCombo("bodegaAO"),
 			'estadoPedidoAO' => $this->getCombo("estadoPedidoAO")
+		]);
+	}
+
+	/**
+	 * Entrega en ventana
+	 */
+	public function entrega_ventana()
+	{
+		return view('despacho::entrega_ventana', [
+			'bodegaAO' => $this->getCombo("bodegaAO")
+		]);
+	}
+
+	/**
+	 * Entrega no catalogados
+	 */
+	public function entrega_nocatalogados()
+	{
+		return view('despacho::entrega_no_catalogados', [
+			'bodegaAO' => $this->getCombo("bodegaAO")
+		]);
+	}
+
+	/**
+	 * Consultas picking
+	 */
+	public function picking()
+	{
+		return view('despacho::picking', [
+			'bodegaAO' => $this->getCombo("bodegaAO"),
+			'estadoPedidoAO' => $this->getCombo("estadoPicking")
+		]);
+	}
+
+	/**
+	 * Conciliacion despacho
+	 */
+	public function conciliacion_despacho()
+	{
+		return view('despacho::conciliacion_despacho', [
+			'bodegaAO' => $this->getCombo("bodegaAO"),
+			'estadoPedidoAO' => $this->getCombo("estadoPicking")
+		]);
+	}
+
+	/**
+	 * Conciliacion despacho
+	 */
+	public function reingreso_articulos()
+	{
+		return view('despacho::reingreso_articulos', [
+			'bodegaAO' => $this->getCombo("bodegaAO")
 		]);
 	}
 }

@@ -1,0 +1,13 @@
+{
+    "name": "Etiqueta",
+    "alias": "etiqueta",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Etiqueta\\Providers\\EtiquetaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

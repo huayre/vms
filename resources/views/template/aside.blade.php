@@ -32,7 +32,7 @@
 
         <!-- Sidebar Menu -->
         <nav class="mt-2">
-            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <ul class="nav nav-pills nav-sidebar flex-column nav-compact text-sm nav-child-indent" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- Add icons to the links using the .nav-icon class
                      with font-awesome or any other icon font library -->
                 <li class="nav-item">
@@ -94,13 +94,13 @@
                                 <li class="nav-item">
                                     <a href="{{route('articulos')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Mantención de Artículos</p>
+                                        <p>Mant. de Artículos</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="{{route('cod_barra')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Mantención de Códigos de Barra</p>
+                                        <p>Mant. de Códigos de Barra</p>
                                     </a>
 
 
@@ -109,7 +109,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Porteria
@@ -164,7 +164,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Recepción
@@ -254,7 +254,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Almacenamiento
@@ -356,7 +356,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Inventario
@@ -421,7 +421,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Despachos
@@ -430,31 +430,31 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav.html" class="nav-link">
+                            <a href="/despacho/pedido" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Mantención Pedidos</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/despacho/asignacion" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Asignar Operador</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/despacho/preparacion" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Estado de Preparación</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/despacho/entrega_ventana" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Entrega en Ventana</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/despacho/no_catalogados" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Entrega no Catalogados</p>
                             </a>
@@ -469,13 +469,13 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/despacho/picking" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Estado de Picking</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Pedidos Preparados</p>
                                     </a>
@@ -493,19 +493,19 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/despacho/entrega_ventana" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Entrega en Ventana</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/despacho/conciliacion_despacho" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Concilianción de Despacho</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/despacho/reingreso_articulos" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Reingreso de Artículos</p>
                                     </a>
@@ -515,7 +515,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Etiquetas
@@ -524,19 +524,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav.html" class="nav-link">
+                            <a href="/etiqueta/usuarios" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Usuarios</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/etiqueta/ubicaciones" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Ubicaciones</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/etiqueta/bultos" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Bultos</p>
                             </a>

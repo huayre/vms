@@ -4,6 +4,15 @@ Fecha: 30/10/2020
 /* ******************************************************************************** */
 
 $(document).ready(function () {
+	$('#dtResultIndex').DataTable({
+		responsive: true,
+		destroy: true,
+		filter: false,
+		autoWidth: false,
+		language: langSpanish,
+		order: [[ 0, "asc" ]]
+	});
+
 	$("#btn-pedido").click(function(){
 		var	pedido = $(this).val();
 		/* Consultar los detalles del pedido */

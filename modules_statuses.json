@@ -1,6 +1,5 @@
 {
     "Administracion": true,
     "Inventario": true,
-    "Despacho": true,
-    "Porteria": true
+    "Despacho": true
 }

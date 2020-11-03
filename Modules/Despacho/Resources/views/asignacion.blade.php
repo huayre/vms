@@ -1,6 +1,6 @@
-@extends('despacho::layouts.master')
+@extends('template.index')
 
-@section('header')
+@section('header_content')
 <div class="row mb-2">
 	<div class="col-sm-6">
 		<h1 class="m-0 text-dark"></h1>
@@ -19,7 +19,7 @@
 	<div class="col-md-12">
 		<div class="card card-dark">
 			<div class="card-header">
-				<h3 class="card-title">FILTRAR PEDIDOS</h3>
+				<h3 class="card-title">FILTRAR ASIGNACIONES</h3>
 				<div class="card-tools">
 	        <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
 	        	<i class="fas fa-minus"></i>
@@ -90,7 +90,7 @@
 						</div>
 						<div class="col-auto form-group align-self-end">
 							<button type="button" class="btn btn-default" id="limpiarAO"> <i class="fas fa-times-circle"></i> Limpiar </button>
-							<button type="button" class="btn btn-success" id="buscarAO"> <i class="fas fa-search"></i> Buscar</button>
+							<button type="button" class="btn btn-info" id="buscarAO"> <i class="fas fa-search"></i> Buscar</button>
 						</div>
 					</div>
 				</form>
@@ -195,6 +195,6 @@
 </div>
 @endsection
 
-@section('loadJS')
+@section('script')
 	<script src="{{Module::asset('despacho:js/asignar_operador.js')}}"></script>
 @endsection

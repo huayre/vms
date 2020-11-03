@@ -3,16 +3,7 @@ Autor: Rawil Ceballo
 Fecha: 30/10/2020
 /* ******************************************************************************** */
 $(document).ready(function(){
-	$('#dtResultPicking').DataTable({
-		responsive: true,
-		destroy: true,
-		filter: false,
-		autoWidth: false,
-		language: langSpanish,
-		order: [[ 0, "asc" ]]
-	});
-
-	$('#dtResultReingreso').DataTable({
+	$('#dtResultIndex').DataTable({
 		responsive: true,
 		destroy: true,
 		filter: false,
@@ -22,9 +13,9 @@ $(document).ready(function(){
 	});
 });
 
-function viewDetailsPicking(id) {
+function modalConciliacionDetalle(id) {
 	$("#modalDetalles").modal("toggle");
-	$('#dtModalDetallesPicking').DataTable({
+	$('#dtModalDetalles').DataTable({
 		responsive: true,
 		destroy: true,
 		filter: false,
