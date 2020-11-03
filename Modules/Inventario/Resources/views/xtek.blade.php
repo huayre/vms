@@ -8,7 +8,7 @@
 	<div class="col-sm-6">
 		<ol class="breadcrumb float-sm-right">
 			<li class="breadcrumb-item"><a href="#">Inventario</a></li>
-			<li class="breadcrumb-item active">Diferencias de toma de inventario</li>
+			<li class="breadcrumb-item active">xTek vs MIMS</li>
 		</ol>
 	</div>
 </div>

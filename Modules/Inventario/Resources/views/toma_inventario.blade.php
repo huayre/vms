@@ -97,7 +97,7 @@
 			<form id="formTI" action="" method="POST">
 				@csrf
 				<div class="modal-header">
-					<h4 class="modal-title">MODIFICAR ASIGNACIÓN</h4>
+					<h4 class="modal-title">DETALLES TOMA DE INVENTARIO</h4>
 				</div>
 				<div class="modal-body text-sm">
 					<div class="row">

@@ -263,9 +263,9 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav.html" class="nav-link">
+                            <a href="/almacenamiento/ubicaciones" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Mantención de Documentos</p>
+                                <p>Admin. de ubicación</p>
                             </a>
                         </li>
                         <li class="nav-item">
