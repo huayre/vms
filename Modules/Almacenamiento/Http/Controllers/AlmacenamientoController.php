@@ -157,4 +157,14 @@ class AlmacenamientoController extends Controller
 			'estadoUbicacion' => $this->getCombo("estado_ubicacion")
 		]);
 	}
+
+	/**
+	 * Administración de ubicaciones fisicas
+	 */
+	public function mapa()
+	{
+		return view('almacenamiento::mapa', [
+			'bodegaAO' => $this->getCombo("bodegaAO")
+		]);
+	}
 }

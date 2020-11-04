@@ -9,3 +9,7 @@ Route::prefix('almacenamiento')->group(function() {
 Route::prefix('almacenamiento')->group(function() {
     Route::get('/ubicaciones', 'AlmacenamientoController@admin_ubicacion');
 });
+
+Route::prefix('almacenamiento')->group(function() {
+    Route::get('/mapa', 'AlmacenamientoController@mapa');
+});
