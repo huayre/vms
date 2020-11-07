@@ -27,13 +27,7 @@ Route::get('prueba','PruebaController@listapersonas');
 /** Rutas del modulo Administracion **/
 Route::view('rol.config','configuracion/roles');
 
-/** Rutas del modulo Etiquetas **/
-Route::view('etiquetas', 'etiquetas/index');
-Route::view('etiq.ubicaciones', 'etiquetas/ubicaciones');
-Route::view('etiq.bultos', 'etiquetas/bultos');
-Route::view('etiq.usuarios', 'etiquetas/usuarios');
-
-
-
+/** RF - MENU PRINCIPAL **/
+Route::view('rf', 'rf/rf');
 
 Route::get('/home', 'HomeController@index')->name('home');
