@@ -269,7 +269,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                            <a href="/almacenamiento/mapa" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Mapa De Ubicaciones</p>
                             </a>
@@ -284,31 +284,31 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/almacenamiento/stock_articulo" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Stock de Artículos Almacenados</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/almacenamiento/stock_general" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Stock General</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/almacenamiento/ubicaciones_disponibles" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Ubicaciones Disponibles</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/almacenamiento/ubicaciones_usadas" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Ubicaciones Usadas</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/almacenamiento/ubicaciones_articulos" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Ubicaciones por Artículo</p>
                                     </a>
@@ -326,25 +326,25 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/almacenamiento/ctac_articulo" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Cta. cte. Artículo</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/almacenamiento/ctac_ubicaciones" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Cta. cte Ubicaciones</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/almacenamiento/ctac_cliente" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Cta. cte. Cliente</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="/almacenamiento/movimiento_mensual" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Movimiento Mensual Unidades</p>
                                     </a>

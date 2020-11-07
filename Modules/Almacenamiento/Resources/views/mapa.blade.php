@@ -45,11 +45,7 @@
 								@endforelse
 							</select>
 						</div>
-						<div class="col-md-3 form-group">
-							<label for="hileraMP">HILERA</label>
-							<input type="text" id="hileraMP" name="hileraMP" class="form-control form-control-sm">
-						</div>
-						<div class="col-md-6 form-group align-self-end">
+						<div class="col-md-9 form-group align-self-end">
 							<button type="button" class="btn btn-info" id="buscarMP"> <i class="fas fa-search"></i> Buscar</button>
 						</div>
 					</div>
@@ -66,7 +62,12 @@
 	      <h3 class="card-title">RESULTADOS</h3>
 	    </div>
 	    <div class="card-body text-sm">
-				<div id="mapaOB"></div>
+				<div class="row">
+					<div class="col-md-12" id="hilerasOB"></div>
+				</div>
+				<div class="row mt-3">
+					<div class="col-md-12 border" id="mapaOB"></div>
+				</div>
 	    </div>
 	  </div>
 	</div>

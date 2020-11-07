@@ -1,10 +1,45 @@
-.nivel{
+.nivel {
 	display: block;
+	text-align: center;
+	font-weight: bold;
 }
 
 .ubicacion {
+	position: relative;
 	display: inline-block;
-	border: thin #000 solid;
-	width: 2rem;
-	height: 2rem;
+	margin-left: 0.3rem;
+	margin-bottom: 0.3rem;
+	padding: 0.2rem;
+	border: 2px #fff dashed;
+	width: 3.5rem;
+	height: 3.5rem;
+	transition: all 500ms ease;
+	font-size: 8pt;
+	color: #999;
+}
+
+.ubicacion .details {
+	display: none;
+	border: 2px #000 solid;
+}
+
+.ubicacion:hover {
+	border: 2px #000 dashed;
+}
+
+.ubicacion:hover .details {
+	display: block;
+	z-index: 1;
+	position: absolute;
+	top: 100%;
+	left: -2px;
+	width: 14rem;
+	text-align: left;
+	padding: 1rem;
+}
+
+.ubicacion ul{
+	padding: 0rem;
+	margin: 0rem;
+	list-style: none;
 }

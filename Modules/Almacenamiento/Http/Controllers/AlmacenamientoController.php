@@ -61,16 +61,44 @@ class AlmacenamientoController extends Controller
 				}
 				$data = $this->armaCombo($val);
 				break;
+			case 'nivel':
+				$val = array(1,2,3,4,5,6,7,8,9);
+				$data = $this->armaCombo($val);
+				break;
+			case 'tipo_stock':
+				$val = array('PROPIO','TERCEROS');
+				$data = $this->armaCombo($val);
+				break;
+			case 'clasificacion':
+				$val = array('STOCK NORMAL','OBSOLETO');
+				$data = $this->armaCombo($val);
+				break;
+			case 'inactividad':
+				$val = array('AREA MINA','N/A');
+				$data = $this->armaCombo($val);
+				break;
+			case 'clase':
+				$val = array('PERNOS','ACEITES LUBRICANTES', 'ETC');
+				$data = $this->armaCombo($val);
+				break;
+			case 'meses':
+				$val = array('ENERO', 'FEBRERO', 'MARZO', 'ABRIL', 'MAYO', 'JUNIO', 'JULIO', 'AGOSTO', 'SEPTIEMBRE', 'OCTUBRE', 'NOVIEMBRE', 'DICIEMBRE');
+				$data = $this->armaCombo($val);
+				break;
+			case 'anio':
+				$val = array(2017,2018,2019,2020);
+				$data = $this->armaCombo($val, true);
+				break;
 		}
 		return $data;
 	}
 
-	private function armaCombo($arr)
+	private function armaCombo($arr, $id = false)
 	{
 		$data = array();
 		foreach ($arr as $i => $val) {
 			$object = new \stdClass();
-			$object->id = $i + 1;
+			$object->id = ($id == true) ? $val : $i + 1;
 			$object->descripcion = $val;
 			$data[] = $object;
 		}
@@ -159,12 +187,114 @@ class AlmacenamientoController extends Controller
 	}
 
 	/**
-	 * Administración de ubicaciones fisicas
+	 * Mapa
 	 */
 	public function mapa()
 	{
 		return view('almacenamiento::mapa', [
 			'bodegaAO' => $this->getCombo("bodegaAO")
+		]);
+	}
+
+	/**
+	 * Stock de articulos
+	 */
+	public function stock_articulo()
+	{
+		return view('almacenamiento::stock_articulo', [
+			'bodega' => $this->getCombo("bodegaAO")
+		]);
+	}
+
+	/**
+	 * Stock General
+	 */
+	public function stock_general()
+	{
+		return view('almacenamiento::stock_general', [
+			'bodega' => $this->getCombo("bodegaAO")
+		]);
+	}
+
+	/**
+	 * Ubicaciones disponibles
+	 */
+	public function ubicaciones_disponibles()
+	{
+		return view('almacenamiento::ubicaciones_disponibles', [
+			'bodega' => $this->getCombo("bodegaAO"),
+			'zona' => $this->getCombo("tipo_zona"),
+			'hilera' => $this->getCombo("nivel"),
+			'nivel' => $this->getCombo("nivel")
+		]);
+	}
+
+	/**
+	 * Ubicaciones ocupadas / usadas
+	 */
+	public function ubicaciones_usadas()
+	{
+		return view('almacenamiento::ubicaciones_usadas', [
+			'bodega' => $this->getCombo("bodegaAO"),
+			'zona' => $this->getCombo("tipo_zona"),
+			'hilera' => $this->getCombo("nivel"),
+			'nivel' => $this->getCombo("nivel"),
+			'tipo_stock' => $this->getCombo("tipo_stock")
+		]);
+	}
+
+	/**
+	 * Ubicaciones ocupadas por articulos
+	 */
+	public function ubicaciones_articulos()
+	{
+		return view('almacenamiento::ubicaciones_articulos', [
+			'bodega' => $this->getCombo("bodegaAO"),
+			'clasificacion' => $this->getCombo("clasificacion"),
+			'inactividad' => $this->getCombo("inactividad"),
+			'clase' => $this->getCombo("clase")
+		]);
+	}
+
+	/**
+	 * Cuenta corriente de articulos
+	 */
+	public function ctacte_articulo()
+	{
+		return view('almacenamiento::ctac_articulo', [
+			'bodega' => $this->getCombo("bodegaAO")
+		]);
+	}
+
+	/**
+	 * Cuenta corriente por ubicaciones
+	 */
+	public function ctacte_ubicaciones()
+	{
+		return view('almacenamiento::ctac_ubicaciones', [
+			'bodega' => $this->getCombo("bodegaAO")
+		]);
+	}
+
+	/**
+	 * Cuenta corriente por cliente
+	 */
+	public function ctacte_cliente()
+	{
+		return view('almacenamiento::ctac_cliente', [
+			'bodega' => $this->getCombo("bodegaAO")
+		]);
+	}
+
+	/**
+	 * Movimiento mensual de unidades
+	 */
+	public function movimiento_mensual()
+	{
+		return view('almacenamiento::mov_mensual', [
+			'bodega' => $this->getCombo("bodegaAO"),
+			'meses' => $this->getCombo("meses"),
+			'anio' => $this->getCombo("anio")
 		]);
 	}
 }
