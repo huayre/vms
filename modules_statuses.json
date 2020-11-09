@@ -3,5 +3,6 @@
     "Inventario": true,
     "Despacho": true,
     "Porteria": true,
-    "Almacenamiento": true
+    "Almacenamiento": true,
+    "Tag": true
 }
