@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/recepcion",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Recepcion\\Providers\\RecepcionServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Recepcion\\": ""
+        }
+    }
+}

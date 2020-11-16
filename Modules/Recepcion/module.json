@@ -1,0 +1,13 @@
+{
+    "name": "Recepcion",
+    "alias": "recepcion",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Recepcion\\Providers\\RecepcionServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
