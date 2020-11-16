@@ -1,14 +1,14 @@
 <?php
 
-namespace Modules\Etiqueta\Http\Controllers;
+namespace Modules\Tag\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 
-class EtiquetaController extends Controller
+class TagController extends Controller
 {
-	
+
 	private function getCombo($get)
 	{
 		switch ($get) {
@@ -17,15 +17,15 @@ class EtiquetaController extends Controller
 				$data = $this->armaCombo($val);
 				break;
 			case 'hilera':
-				$val = array(1,2,3,4);
+				$val = array(1, 2, 3, 4);
 				$data = $this->armaCombo($val);
 				break;
 			case 'columna':
-				$val = array(1,2,3,4,5,6);
+				$val = array(1, 2, 3, 4, 5, 6);
 				$data = $this->armaCombo($val);
 				break;
 			case 'nivel':
-				$val = array(1,2,3);
+				$val = array(1, 2, 3);
 				$data = $this->armaCombo($val);
 				break;
 			case 'tipo_almacenamiento':
@@ -54,7 +54,7 @@ class EtiquetaController extends Controller
 	 */
 	public function index()
 	{
-		return view('etiqueta::index');
+		return view('tag::index');
 	}
 
 	/**
@@ -63,7 +63,7 @@ class EtiquetaController extends Controller
 	 */
 	public function create()
 	{
-		return view('etiqueta::create');
+		return view('tag::create');
 	}
 
 	/**
@@ -83,7 +83,7 @@ class EtiquetaController extends Controller
 	 */
 	public function show($id)
 	{
-		return view('etiqueta::show');
+		return view('tag::show');
 	}
 
 	/**
@@ -93,7 +93,7 @@ class EtiquetaController extends Controller
 	 */
 	public function edit($id)
 	{
-		return view('etiqueta::edit');
+		return view('tag::edit');
 	}
 
 	/**
@@ -122,7 +122,7 @@ class EtiquetaController extends Controller
 	 */
 	public function usuarios()
 	{
-		return view('etiqueta::usuarios');
+		return view('tag::usuarios');
 	}
 
 	/**
@@ -130,7 +130,7 @@ class EtiquetaController extends Controller
 	 */
 	public function ubicaciones()
 	{
-		return view('etiqueta::ubicaciones', [
+		return view('tag::ubicaciones', [
 			'bodega' => $this->getCombo("bodega"),
 			'hilera' => $this->getCombo("hilera"),
 			'columna' => $this->getCombo("columna"),
@@ -144,6 +144,6 @@ class EtiquetaController extends Controller
 	 */
 	public function bultos()
 	{
-		return view('etiqueta::bultos');
+		return view('tag::bultos');
 	}
 }

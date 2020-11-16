@@ -8,7 +8,7 @@
 	<div class="col-sm-6">
 		<ol class="breadcrumb float-sm-right">
 			<li class="breadcrumb-item"><a href="#">Etiquetas</a></li>
-			<li class="breadcrumb-item active">Ubicaciones</li>
+			<li class="breadcrumb-item active">Bultos</li>
 		</ol>
 	</div>
 </div>
@@ -19,7 +19,7 @@
 	<div class="col-md-12">
 		<div class="card card-dark">
 			<div class="card-header">
-				<h3 class="card-title">Impresión de ubicaciones</h3>
+				<h3 class="card-title">Impresión de bultos</h3>
 				<div class="card-tools">
 	        <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
 	        	<i class="fas fa-minus"></i>

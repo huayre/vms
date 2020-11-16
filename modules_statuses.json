@@ -4,5 +4,6 @@
     "Despacho": true,
     "Porteria": true,
     "Almacenamiento": true,
-    "Recepcion": true
+    "Recepcion": true,
+    "Tag": true
 }

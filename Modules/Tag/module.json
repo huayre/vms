@@ -1,11 +1,11 @@
 {
-    "name": "Etiqueta",
-    "alias": "etiqueta",
+    "name": "Tag",
+    "alias": "tag",
     "description": "",
     "keywords": [],
     "order": 0,
     "providers": [
-        "Modules\\Etiqueta\\Providers\\EtiquetaServiceProvider"
+        "Modules\\Tag\\Providers\\TagServiceProvider"
     ],
     "aliases": {},
     "files": [],

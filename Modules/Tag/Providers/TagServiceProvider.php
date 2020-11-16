@@ -1,21 +1,21 @@
 <?php
 
-namespace Modules\Etiqueta\Providers;
+namespace Modules\Tag\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
 
-class EtiquetaServiceProvider extends ServiceProvider
+class TagServiceProvider extends ServiceProvider
 {
     /**
      * @var string $moduleName
      */
-    protected $moduleName = 'Etiqueta';
+    protected $moduleName = 'Tag';
 
     /**
      * @var string $moduleNameLower
      */
-    protected $moduleNameLower = 'etiqueta';
+    protected $moduleNameLower = 'tag';
 
     /**
      * Boot the application events.

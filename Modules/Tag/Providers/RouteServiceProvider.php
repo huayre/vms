@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Etiqueta\Providers;
+namespace Modules\Tag\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -12,7 +12,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $moduleNamespace = 'Modules\Etiqueta\Http\Controllers';
+    protected $moduleNamespace = 'Modules\Tag\Http\Controllers';
 
     /**
      * Called before routes are registered.
@@ -49,7 +49,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         Route::middleware('web')
             ->namespace($this->moduleNamespace)
-            ->group(module_path('Etiqueta', '/Routes/web.php'));
+            ->group(module_path('Tag', '/Routes/web.php'));
     }
 
     /**
@@ -64,6 +64,6 @@ class RouteServiceProvider extends ServiceProvider
         Route::prefix('api')
             ->middleware('api')
             ->namespace($this->moduleNamespace)
-            ->group(module_path('Etiqueta', '/Routes/api.php'));
+            ->group(module_path('Tag', '/Routes/api.php'));
     }
 }

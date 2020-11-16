@@ -1,11 +1,11 @@
 <?php
 
-namespace Modules\Etiqueta\Database\Seeders;
+namespace Modules\Tag\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 
-class EtiquetaDatabaseSeeder extends Seeder
+class TagDatabaseSeeder extends Seeder
 {
     /**
      * Run the database seeds.
