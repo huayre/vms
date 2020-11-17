@@ -1,7 +1,7 @@
 @extends('template.index')
 
 @section('header_content')
-    @include('recepcion::carga_transporte.modal_detalle')
+    @include('recepcion::estado_transito.modal_detalle')
     <div class="row mb-2">
         <div class="col-sm-6">
             <h1 class="m-0 text-dark"></h1>
@@ -9,7 +9,7 @@
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Recepción</a></li>
-                <li class="breadcrumb-item active">Carga Transporte</li>
+                <li class="breadcrumb-item active">Estado en Transito</li>
             </ol>
         </div>
     </div>
@@ -20,7 +20,7 @@
         <div class="col-md-12">
             <div class="card card-dark">
                 <div class="card-header">
-                    <h3 class="card-title">BUSCAR CARGA TRANSPORTE</h3>
+                    <h3 class="card-title">Buscar Stock en Transito de Recepción</h3>
                 </div>
                 <div class="card-body">
                     <form  method="post">
@@ -33,24 +33,34 @@
                                     </select>
                                 </div>
                                 <div class="col-md-3 form-group">
-                                    <label for="nombreROL">Num. Doct. Transporte</label>
+                                    <label for="nombreROL">Num. Doct. Recepción</label>
                                     <input type="text" placeholder="Descripción del transporte" class="form-control form-control-sm"/>
                                 </div>
                                 <div class="col-md-3 form-group">
-                                    <label for="nombreROL">Fecha Carga Desde :</label>
-                                    <input type="date" placeholder="Descripción del transporte" class="form-control form-control-sm"/>
+                                    <label for="nombreROL">Artículo</label>
+                                    <select class="form-control">
+                                        <option>Opcion1</option>
+                                    </select>
                                 </div>
+                            <div class="col-md-3 form-group">
+                                <label for="nombreROL">No Catalogado</label>
+                                <input type="checkbox">
+                            </div>
 
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 form-group">
+                                <label for="nombreROL">Recepción Desde:</label>
+                                <input type="date"  class="form-control form-control-sm"/>
+                            </div>
+                            <div class="col-md-4 form-group">
+                                <label for="nombreROL">Fecha Recepción Hasta:</label>
+                                <input type="date"  class="form-control form-control-sm"/>
+                            </div>
 
-                                <div class="col-md-3 form-group">
-                                    <label for="nombreROL">Fecha Carga Hasta :</label>
-                                    <input type="date" placeholder="Descripción del transporte" class="form-control form-control-sm"/>
-                                </div>
                         </div>
                                 <div class="col-md-12 float-right ">
                                     <button type="button" class="btn btn-sm btn-info" id="buscarROL"><i class="fas fa-search"></i> Buscar</button>
-                                    <button type="button" class="btn btn-sm btn-success" id="buscarROL"><i class="fas fa-print"></i> Imprimir</button>
-
                                 </div>
                     </form>
                 </div>
@@ -62,7 +72,7 @@
         <div class="col-md-12">
             <div class="card card-dark">
                 <div class="card-header">
-                    <h3 class="card-title">BULTOS CARGADOS</h3>
+                    <h3 class="card-title">ARTICULOS EN TRANSITO</h3>
                 </div>
                 <div class="card-body">
                     <table class="table table-striped table-bordered text-sm" id="table-rol">
@@ -71,16 +81,15 @@
                             <th>Nro. Bulto</th>
                             <th>Código de Transporte</th>
                             <th>Documento de Transporte</th>
-                            <th>Fecha Carga</th>
-                            <th>Bodega Destino</th>
                             <th>Transportista</th>
+                            <th>Bodega Destino</th>
+                            <th>Fecha Carga</th>
                             <th>Detalle</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td>
-                                <input type="checkbox">
                             </td>
                             <td>
                                 095495495

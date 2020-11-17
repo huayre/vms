@@ -206,13 +206,13 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="{{route('descarga_transporte')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Descarga de Transporte</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="{{route('waybills')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Estado de Waybills</p>
                                     </a>
@@ -230,19 +230,19 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="{{route('diferencia_transporte')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Diferencia en Transporte</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="{{route('dife_ingreso_recepción')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Diferencia Ingreso & Recepción</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="{{route('estado_transito')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Estado en Transito</p>
                                     </a>

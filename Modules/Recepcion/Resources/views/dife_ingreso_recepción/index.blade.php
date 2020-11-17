@@ -1,7 +1,7 @@
 @extends('template.index')
 
 @section('header_content')
-    @include('recepcion::hoja_trabajo.modal_detalle')
+    @include('recepcion::dife_ingreso_recepción.modal_detalle')
     <div class="row mb-2">
         <div class="col-sm-6">
             <h1 class="m-0 text-dark"></h1>
@@ -9,7 +9,7 @@
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Recepción</a></li>
-                <li class="breadcrumb-item active">Hoja de Trabajo</li>
+                <li class="breadcrumb-item active">Diferencia Ingreso && Recepción</li>
             </ol>
         </div>
     </div>
@@ -20,7 +20,7 @@
         <div class="col-md-12">
             <div class="card card-dark">
                 <div class="card-header">
-                    <h3 class="card-title">IMPRIME ITEMS DOCUMENTOS DE RECEPCIÓN</h3>
+                    <h3 class="card-title">Buscar Diferencia Ingreso && Recepción</h3>
                 </div>
                 <div class="card-body">
                     <form  method="post">
@@ -47,37 +47,45 @@
         <div class="col-md-12">
             <div class="card card-dark">
                 <div class="card-header">
-                    <h3 class="card-title">RESULTADOS</h3>
+                    <h3 class="card-title">BULTOS CARGADOS</h3>
                 </div>
                 <div class="card-body">
                     <table class="table table-striped table-bordered text-sm" id="table-rol">
                         <thead>
                         <tr class="text-md-left text-lg-center">
-                            <th>DESCRIPCION</th>
-                            <th>CONTROL DE ACCESO</th>
+                            <th></th>
+                            <th>Tipo Documento</th>
+                            <th>Estado</th>
+                            <th>Num Recepción</th>
+                            <th>Doc. Recepción</th>
+                            <th>Recibido</th>
+                            <th>Guia Factura</th>
+                            <th>Proveedor</th>
+                            <th>Operador</th>
+                            <th>Transportista</th>
+                            <th>Opciones</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td>
                                 <input type="checkbox">
-                                J00203944
                             </td>
+                            <td>
+                                095495495
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                             <td>
                                 <button type="button" class="btn btn-sm btn-info mt-1" id="editar" data-toggle='modal' data-target='#modal-detalles'><i class="fas fa-search"></i> Detalles</button>
-                                <button  class="btn btn-sm btn-danger" onclick="AlertaEliminar()"><i class="fas fa-times-circle"></i> Eliminar</button>
                             </td>
-                        </tr>
-                        <tr>
-                            <td>
 
-                                <input type="checkbox">
-                                J00203944
-                            </td>
-                            <td>
-                                <button type="button" class="btn btn-sm btn-info mt-1" id="editar" data-toggle='modal' data-target='#modal-detalles'><i class="fas fa-search"></i> Detalles</button>
-                                <button  class="btn btn-sm btn-danger" onclick="AlertaEliminar()"><i class="fas fa-times-circle"></i> Eliminar</button>
-                            </td>
                         </tr>
                         </tbody>
                     </table>

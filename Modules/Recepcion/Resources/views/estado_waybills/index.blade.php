@@ -1,7 +1,7 @@
 @extends('template.index')
 
 @section('header_content')
-    @include('recepcion::modifica_recepcionado.modal_editar')
+    @include('recepcion::carga_transporte.modal_detalle')
     <div class="row mb-2">
         <div class="col-sm-6">
             <h1 class="m-0 text-dark"></h1>
@@ -9,7 +9,7 @@
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Recepción</a></li>
-                <li class="breadcrumb-item active">Modificar Recepción</li>
+                <li class="breadcrumb-item active">Estado Waybills</li>
             </ol>
         </div>
     </div>
@@ -20,22 +20,34 @@
         <div class="col-md-12">
             <div class="card card-dark">
                 <div class="card-header">
-                    <h3 class="card-title">BUSCAR DOCUMENTOS DE RECEPCIÓN</h3>
+                    <h3 class="card-title">BUSCAR WAYBILLS</h3>
                 </div>
                 <div class="card-body">
                     <form  method="post">
                         @csrf
                         <div class="row">
-                            <div class="col-md-4 form-group">
-                                <label for="nombreROL">DESCRIPCIÓN</label>
-                                <input type="text" placeholder="Descripción del transporte" class="form-control form-control-sm"/>
-                            </div>
-                            <div class="col-md-8 form-group align-self-end">
-                                <button type="button" class="btn btn-sm btn-info" id="buscarROL"><i class="fas fa-search"></i> Buscar</button>
-                                <button type="reset" class="btn btn-sm btn-default" id="limpiarROL"><i class="fas fa-trash"></i> Limpiar</button>
+                                <div class="col-md-4 form-group">
+                                    <label for="nombreROL">Bodega</label>
+                                    <select class="form-control">
+                                        <option>Opcion1</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label for="nombreROL">Num. Orden de Compra</label>
+                                    <input type="text" placeholder="Descripción del transporte" class="form-control form-control-sm"/>
+                                </div>
+                                <div class="col-md-4 form-group">
+                                    <label for="nombreROL">Num. Waybills</label>
+                                    <input type="date" placeholder="Descripción del transporte" class="form-control form-control-sm"/>
+                                </div>
 
-                            </div>
+
                         </div>
+                                <div class="col-md-12 float-right ">
+                                    <button type="button" class="btn btn-sm btn-info" id="buscarROL"><i class="fas fa-search"></i> Buscar</button>
+                                    <button type="button" class="btn btn-sm btn-success" id="buscarROL"><i class="fas fa-print"></i> Imprimir</button>
+
+                                </div>
                     </form>
                 </div>
             </div>
@@ -46,23 +58,22 @@
         <div class="col-md-12">
             <div class="card card-dark">
                 <div class="card-header">
-                    <h3 class="card-title">RESULTADOS</h3>
+                    <h3 class="card-title">WAYBILLS CARGADOS</h3>
                 </div>
                 <div class="card-body">
                     <table class="table table-striped table-bordered text-sm" id="table-rol">
                         <thead>
                         <tr class="text-md-left text-lg-center">
-                            <th>DESCRIPCION</th>
-                            <th>CONTROL DE ACCESO</th>
+                            <th>Estado</th>
+                            <th>Documento</th>
+                            <th>Item Documento</th>
+                            <th>Num. Waybills</th>
+                            <th>Cod Artículo</th>
+                            <th>Descripción</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td>J00203944</td>
-                            <td>
-                                <button type="button" class="btn btn-sm btn-info mt-1" id="editar" data-toggle='modal' data-target='#modal-editar'><i class="fas fa-edit"></i> Editar</button>
-                                <button  class="btn btn-sm btn-danger" onclick="AlertaEliminar()"><i class="fas fa-times-circle"></i> Eliminar</button>
-                            </td>
                         </tr>
                         </tbody>
                     </table>

@@ -19,47 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="cambios en el modulo porteria">
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Config/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Console/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Database/Migrations/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Database/Seeders/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Database/Seeders/RecepcionDatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Database/factories/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Entities/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Http/Controllers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Http/Controllers/RecepcionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Http/Middleware/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Http/Requests/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Providers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Providers/RecepcionServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/assets/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/lang/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/carga_transporte/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/hoja_trabajo/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/mantencion_documento/detalle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/mantencion_documento/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/mantencion_documento/modal_crear.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/mantencion_documento/modal_editar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/modifica_recepcionado/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/modifica_recepcionado/modal_editar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Routes/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Tests/Feature/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Tests/Unit/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/module.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/webpack.mix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git" afterDir="false" />
+    <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="modulo recepción (Mantencion de documentos y Moficar Recepcionado)">
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/carga_transporte/modal_detalle.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/descarga_transporte/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/descarga_transporte/modal_detalle.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/dife_ingreso_recepción/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/dife_ingreso_recepción/modal_detalle.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/diferencia_transporte/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/diferencia_transporte/modal_detalle.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_transito/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_transito/modal_detalle.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_waybills/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_waybills/modal_detalle.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/hoja_trabajo/modal_detalle.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules_statuses.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules_statuses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/carga_transporte/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/carga_transporte/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/hoja_trabajo/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/hoja_trabajo/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/mantencion_documento/detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/mantencion_documento/detalle.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/modifica_recepcionado/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/modifica_recepcionado/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/modifica_recepcionado/modal_editar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/modifica_recepcionado/modal_editar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/template/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/aside.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +177,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_transito" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -211,11 +190,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views\estado_transito" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views\dife_ingreso_recepción" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views" />
       <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views\carga_transporte" />
       <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views\hoja_trabajo" />
-      <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views\modifica_recepcionado" />
-      <recent name="E:\TRABAJOS\WMS\App\Modules\Porteria\Resources\views\transportista" />
-      <recent name="E:\TRABAJOS\WMS\App\Modules\Porteria\Resources\views\mantencion_transporte" />
     </key>
   </component>
   <component name="RunManager">
@@ -262,7 +241,7 @@
       <workItem from="1604403351989" duration="1180000" />
       <workItem from="1604445041570" duration="3048000" />
       <workItem from="1604496334703" duration="7384000" />
-      <workItem from="1605538585166" duration="1404000" />
+      <workItem from="1605538585166" duration="18933000" />
     </task>
     <task id="LOCAL-00001" summary="implementacion del panel de control">
       <created>1603832863806</created>
@@ -334,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604403917833</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modulo recepción (Mantencion de documentos y Moficar Recepcionado)">
+      <created>1605541102584</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605541102584</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +348,8 @@
     <MESSAGE value="implementacion de permisos de menú" />
     <MESSAGE value="implementacion de mantencion de maestros de menú" />
     <MESSAGE value="cambios en el modulo porteria" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios en el modulo porteria" />
+    <MESSAGE value="modulo recepción (Mantencion de documentos y Moficar Recepcionado)" />
+    <option name="LAST_COMMIT_MESSAGE" value="modulo recepción (Mantencion de documentos y Moficar Recepcionado)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="437" y="187" key="#Notifications" timestamp="1605538874693">
@@ -381,22 +368,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1605539044441" />
-    <state x="129" y="55" key="MergeDialog" timestamp="1604403512279">
+    <state x="129" y="55" key="MergeDialog" timestamp="1605541204864">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604403512279" />
-    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1604403512287">
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1605541204864" />
+    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1605541204878">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604403512287" />
+    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1605541204878" />
     <state x="109" y="0" key="SettingsEditor" timestamp="1603995542766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="109" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603995542766" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605541013082">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605541277905">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605541013082" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605541277905" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603947935323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

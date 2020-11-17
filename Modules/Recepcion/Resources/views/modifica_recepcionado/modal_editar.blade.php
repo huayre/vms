@@ -34,7 +34,7 @@
                         <div class="col-md-6">
                             <div class="col-md-12 form-group">
                                 <label>UNIDAD MEDIDA</label>
-                                <input type="text"  class="form-control"  value="Pendiente" >
+                                <input type="text"  class="form-control"  value="UNI" disabled>
                             </div>
                             <div class="col-md-12 form-group">
                                 <label>CANTIDAD</label>
@@ -42,7 +42,7 @@
                             </div>
                             <div class="col-md-12 form-group">
                                 <label>CANTIDAD UNIDADES</label>
-                                <input type="text"  class="form-control"  value="">
+                                <input type="text"  class="form-control"  value="1" disabled>
                             </div>
 
 

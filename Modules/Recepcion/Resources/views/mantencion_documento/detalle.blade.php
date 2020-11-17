@@ -59,6 +59,9 @@
             </div>
         </div>
     </div>
+    <div class="float-right">
+        <a href="{{route('mantencion_documento')}}" class="btn btn-info"> Regresar A la Lista</a>
+    </div>
 @endsection
 @section('script')
     <script>
