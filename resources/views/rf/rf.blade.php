@@ -10,24 +10,14 @@
 			font-size: 10pt;
 			margin: 0;
 			text-align: center;
+            list-style-position: inside;
 		}
 	</style>
 </head>
 
 <body>
-	<div>
-    <h2>MENU PRINCIPAL</h2>
-    <ol>
-      <li><a href="#">RECEPCIÓN</a></li>
-      <li><a href="#">ALMACENAJE</a></li>
-      <li><a href="#">REUBICACIÓN</a></li>
-      <li><a href="#">INVENTARIO</a></li>
-      <li><a href="#">PEDIDOS</a></li>
-      <li><a href="#">ENT. NO CATALOGADOS</a></li>
-      <li><a href="#">CONSULTAS</a></li>
-      <li><a href="#">SALIR</a></li>
-    </ol>
-	</div>
+@yield('contenido')
+
 </body>
 
 </html>

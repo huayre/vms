@@ -28,6 +28,6 @@ Route::get('prueba','PruebaController@listapersonas');
 Route::view('rol.config','configuracion/roles');
 
 /** RF - MENU PRINCIPAL **/
-Route::view('rf', 'rf/rf');
+Route::view('rf', 'rf/principal')->name('rf');
 
 Route::get('/home', 'HomeController@index')->name('home');

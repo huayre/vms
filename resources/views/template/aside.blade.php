@@ -263,13 +263,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="{{route('almacenamiento.ubicaciones')}}" class="nav-link">
+                            <a href="{{route('almacenaje.ubicaciones')}}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Admin. de ubicación</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{route('almacenamiento.mapa')}}" class="nav-link">
+                            <a href="{{route('almacenaje.mapa')}}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Mapa De Ubicaciones</p>
                             </a>
@@ -284,31 +284,31 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="{{route('almacenamiento.stock_articulo')}}" class="nav-link">
+                                    <a href="{{route('almacenaje.stock_articulo')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Stock de Artículos Almacenados</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{route('almacenamiento.stock_general')}}" class="nav-link">
+                                    <a href="{{route('almacenaje.stock_general')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Stock General</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{route('almacenamiento.ubicaciones_disponibles')}}" class="nav-link">
+                                    <a href="{{route('almacenaje.ubicaciones_disponibles')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Ubicaciones Disponibles</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{route('almacenamiento.ubicaciones_usadas')}}" class="nav-link">
+                                    <a href="{{route('almacenaje.ubicaciones_usadas')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Ubicaciones Usadas</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{route('almacenamiento.ubicaciones_articulos')}}" class="nav-link">
+                                    <a href="{{route('almacenaje.ubicaciones_articulos')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Ubicaciones por Artículo</p>
                                     </a>
@@ -326,25 +326,25 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="{{route('almacenamiento.ctac_articulo')}}" class="nav-link">
+                                    <a href="{{route('almacenaje.ctac_articulo')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Cta. cte. Artículo</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{route('almacenamiento.ctac_ubicaciones')}}" class="nav-link">
+                                    <a href="{{route('almacenaje.ctac_ubicaciones')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Cta. cte Ubicaciones</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{route('almacenamiento.ctac_cliente')}}" class="nav-link">
+                                    <a href="{{route('almacenaje.ctac_cliente')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Cta. cte. Cliente</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{route('almacenamiento.movimiento_mensual')}}" class="nav-link">
+                                    <a href="{{route('almacenaje.movimiento_mensual')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Movimiento Mensual Unidades</p>
                                     </a>

@@ -15,7 +15,7 @@ class RecepcionServiceProvider extends ServiceProvider
     /**
      * @var string $moduleNameLower
      */
-    protected $moduleNameLower = 'recepcion';
+    protected $moduleNameLower = 'recepcionarticulos';
 
     /**
      * Boot the application events.

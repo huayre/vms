@@ -110,7 +110,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function index()
 	{
-		return view('almacenamiento::index');
+		return view('almacenaje::index');
 	}
 
 	/**
@@ -119,7 +119,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function create()
 	{
-		return view('almacenamiento::create');
+		return view('almacenaje::create');
 	}
 
 	/**
@@ -139,7 +139,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function show($id)
 	{
-		return view('almacenamiento::show');
+		return view('almacenaje::show');
 	}
 
 	/**
@@ -149,7 +149,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function edit($id)
 	{
-		return view('almacenamiento::edit');
+		return view('almacenaje::edit');
 	}
 
 	/**
@@ -178,7 +178,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function admin_ubicacion()
 	{
-		return view('almacenamiento::admin_ubicacion', [
+		return view('almacenaje::admin_ubicacion', [
 			'bodegaAO' => $this->getCombo("bodegaAO"),
 			'columnas' => $this->getCombo("columnas"),
 			'tipoZona' => $this->getCombo("tipo_zona"),
@@ -191,7 +191,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function mapa()
 	{
-		return view('almacenamiento::mapa', [
+		return view('almacenaje::mapa', [
 			'bodegaAO' => $this->getCombo("bodegaAO")
 		]);
 	}
@@ -201,7 +201,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function stock_articulo()
 	{
-		return view('almacenamiento::stock_articulo', [
+		return view('almacenaje::stock_articulo', [
 			'bodega' => $this->getCombo("bodegaAO")
 		]);
 	}
@@ -211,7 +211,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function stock_general()
 	{
-		return view('almacenamiento::stock_general', [
+		return view('almacenaje::stock_general', [
 			'bodega' => $this->getCombo("bodegaAO")
 		]);
 	}
@@ -221,7 +221,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function ubicaciones_disponibles()
 	{
-		return view('almacenamiento::ubicaciones_disponibles', [
+		return view('almacenaje::ubicaciones_disponibles', [
 			'bodega' => $this->getCombo("bodegaAO"),
 			'zona' => $this->getCombo("tipo_zona"),
 			'hilera' => $this->getCombo("nivel"),
@@ -234,7 +234,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function ubicaciones_usadas()
 	{
-		return view('almacenamiento::ubicaciones_usadas', [
+		return view('almacenaje::ubicaciones_usadas', [
 			'bodega' => $this->getCombo("bodegaAO"),
 			'zona' => $this->getCombo("tipo_zona"),
 			'hilera' => $this->getCombo("nivel"),
@@ -248,7 +248,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function ubicaciones_articulos()
 	{
-		return view('almacenamiento::ubicaciones_articulos', [
+		return view('almacenaje::ubicaciones_articulos', [
 			'bodega' => $this->getCombo("bodegaAO"),
 			'clasificacion' => $this->getCombo("clasificacion"),
 			'inactividad' => $this->getCombo("inactividad"),
@@ -261,7 +261,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function ctacte_articulo()
 	{
-		return view('almacenamiento::ctac_articulo', [
+		return view('almacenaje::ctac_articulo', [
 			'bodega' => $this->getCombo("bodegaAO")
 		]);
 	}
@@ -271,7 +271,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function ctacte_ubicaciones()
 	{
-		return view('almacenamiento::ctac_ubicaciones', [
+		return view('almacenaje::ctac_ubicaciones', [
 			'bodega' => $this->getCombo("bodegaAO")
 		]);
 	}
@@ -281,7 +281,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function ctacte_cliente()
 	{
-		return view('almacenamiento::ctac_cliente', [
+		return view('almacenaje::ctac_cliente', [
 			'bodega' => $this->getCombo("bodegaAO")
 		]);
 	}
@@ -291,7 +291,7 @@ class AlmacenamientoController extends Controller
 	 */
 	public function movimiento_mensual()
 	{
-		return view('almacenamiento::mov_mensual', [
+		return view('almacenaje::mov_mensual', [
 			'bodega' => $this->getCombo("bodegaAO"),
 			'meses' => $this->getCombo("meses"),
 			'anio' => $this->getCombo("anio")

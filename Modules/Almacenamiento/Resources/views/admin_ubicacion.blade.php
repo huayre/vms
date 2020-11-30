@@ -189,5 +189,5 @@
 @endsection
 
 @section('script')
-	<script src="{{Module::asset('almacenamiento:js/admin_ubicacion.js')}}"></script>
+	<script src="{{Module::asset('almacenaje:js/admin_ubicacion.js')}}"></script>
 @endsection

@@ -112,5 +112,5 @@
 @endsection
 
 @section('script')
-<script src="{{ Module::asset('almacenamiento:js/app.js') }}"></script>
+<script src="{{ Module::asset('almacenaje:js/app.js') }}"></script>
 @endsection

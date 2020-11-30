@@ -1,7 +1,7 @@
 @extends('template.index')
 
 @section('css')
-	<link rel="stylesheet" href="{{Module::asset('almacenamiento:sass/app.scss')}}">
+	<link rel="stylesheet" href="{{Module::asset('almacenaje:sass/app.scss')}}">
 @endsection
 
 @section('header_content')
@@ -75,5 +75,5 @@
 @endsection
 
 @section('script')
-	<script src="{{Module::asset('almacenamiento:js/mapa.js')}}"></script>
+	<script src="{{Module::asset('almacenaje:js/mapa.js')}}"></script>
 @endsection

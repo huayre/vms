@@ -14,7 +14,7 @@ class RecepcionController extends Controller
      */
     public function index()
     {
-        return view('recepcion::index');
+        return view('recepcionarticulos::index');
     }
 
     /**
@@ -23,7 +23,7 @@ class RecepcionController extends Controller
      */
     public function create()
     {
-        return view('recepcion::create');
+        return view('recepcionarticulos::create');
     }
 
     /**
@@ -43,7 +43,7 @@ class RecepcionController extends Controller
      */
     public function show($id)
     {
-        return view('recepcion::show');
+        return view('recepcionarticulos::show');
     }
 
     /**
@@ -53,7 +53,7 @@ class RecepcionController extends Controller
      */
     public function edit($id)
     {
-        return view('recepcion::edit');
+        return view('recepcionarticulos::edit');
     }
 
     /**

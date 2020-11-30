@@ -1,7 +1,7 @@
 @extends('template.index')
 
 @section('header_content')
-    @include('recepcion::hoja_trabajo.modal_detalle')
+    @include('recepcionarticulos::hoja_trabajo.modal_detalle')
     <div class="row mb-2">
         <div class="col-sm-6">
             <h1 class="m-0 text-dark"></h1>

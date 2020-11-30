@@ -20,26 +20,129 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e15af60c-2aa4-465b-9594-ce57cb195dd3" name="Default Changelist" comment="modulo recepción (Mantencion de documentos y Moficar Recepcionado)">
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/carga_transporte/modal_detalle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/descarga_transporte/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/descarga_transporte/modal_detalle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/dife_ingreso_recepción/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/dife_ingreso_recepción/modal_detalle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/diferencia_transporte/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/diferencia_transporte/modal_detalle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_transito/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_transito/modal_detalle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_waybills/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_waybills/modal_detalle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/hoja_trabajo/modal_detalle.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Http/Controllers/RfAlmacenajeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Http/Controllers/RfDevolucionesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Http/Controllers/RfReubicacionMasivaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Http/Controllers/RfReubicacionNormalController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/almacenaje/1codbulto.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/almacenaje/2articulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/almacenaje/3info.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/almacenaje/4ubicfisica.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/almacenaje/5infook.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/devolucion/1numarticulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/devolucion/2articulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/devolucion/3info.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/devolucion/4ubicacionfisica.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/devolucion/5infook.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/devolucion/6continuaproceso.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/almacenaje/opciones.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva/10_1cantidadarticulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva/11_1informacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva/1opciones.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva/2codubicacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva/3codarticulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva/4tipostock.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva/5cantidadarticulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva/6informacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva/7_1codarticulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva/8_1tipostock.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva/9_1codubicacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/normal/1codubicacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/normal/2codarticulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/normal/3tipostock.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/normal/4cantidadarticulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/normal/5nuevaubicacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/normal/6informacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/opciones.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Http/Controllers/RFReingresoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Http/Controllers/RfEntegraVentanaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Http/Controllers/RfPedidoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/entregaventana/1docpedido.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/entregaventana/2codcliente.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/entregaventana/3detallepedido.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/entregaventana/4articulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/entregaventana/5inferiordepacho.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/entregaventana/6articulook.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/entregaventana/7entregapedido.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/entregaventana/7pedidodespachado.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/opciones.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/preparacion/1vistaprioridad.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/preparacion/2docpedido.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/preparacion/3infopreparacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/preparacion/4codubicacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/preparacion/5informacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/preparacion/6cantidadretirar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/preparacion/7finproceso.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/reingreso/1codarticulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Despacho/Resources/views/rf/pedidos/reingreso/2informacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Http/Controllers/RfInventarioGeneralController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Http/Controllers/RfInventarioGuiadoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/general/1numinventario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/general/2ubifisica.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/general/3articulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/general/4confirmacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/guiado/1numinventario.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/guiado/2ubifisica.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/guiado/3info.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/guiado/4ubifisicaconfirmacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/guiado/5articulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/guiado/6pantallapregunta.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/guiado/7pantallafinproceso.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Inventario/Resources/views/rf/inventario/opciones.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Http/Controllers/RFIngresosnegativos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Http/Controllers/RfRecepcionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Http/Controllers/RfTransporte.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/ingresosnegativos/1ordencompra.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/ingresosnegativos/2numitem.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/ingresosnegativos/3codubicacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/ingresosnegativos/4cantidadrebajar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/ingresosnegativos/5confirmacion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/opciones.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/recepcionarticulos/1ordencompra.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/recepcionarticulos/2despacho.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/recepcionarticulos/3codigobulto.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/recepcionarticulos/4articulo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/transporte/1codtransporte.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/transporte/2codtransportista.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/transporte/3codbulto.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/rf/recepcion/transporte/4bultocargado.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/rf/principal.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Http/Controllers/AlmacenamientoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Http/Controllers/AlmacenamientoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Providers/AlmacenamientoServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Providers/AlmacenamientoServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/admin_ubicacion.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/admin_ubicacion.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ctac_articulo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ctac_articulo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ctac_cliente.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ctac_cliente.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ctac_ubicaciones.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ctac_ubicaciones.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/mapa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/mapa.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/mov_mensual.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/mov_mensual.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/stock_articulo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/stock_articulo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/stock_general.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/stock_general.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ubicaciones_articulos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ubicaciones_articulos.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ubicaciones_disponibles.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ubicaciones_disponibles.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ubicaciones_usadas.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/ubicaciones_usadas.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Almacenamiento/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Almacenamiento/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Despacho/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Despacho/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Inventario/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Inventario/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Http/Controllers/RecepcionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Http/Controllers/RecepcionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Providers/RecepcionServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Providers/RecepcionServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/carga_transporte/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/carga_transporte/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/descarga_transporte/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/descarga_transporte/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/dife_ingreso_recepción/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/dife_ingreso_recepción/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/diferencia_transporte/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/diferencia_transporte/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_transito/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_transito/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_waybills/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_waybills/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/hoja_trabajo/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/hoja_trabajo/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/mantencion_documento/detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/mantencion_documento/detalle.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/mantencion_documento/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/mantencion_documento/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/modifica_recepcionado/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/modifica_recepcionado/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/modifica_recepcionado/modal_editar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Resources/views/modifica_recepcionado/modal_editar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/Recepcion/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Recepcion/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Recepcion/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/rf/rf.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/rf/rf.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/template/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template/aside.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Modules/Recepcion/Resources/views/estado_transito" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Modules/Almacenamiento/Resources/views/rf/reubicacionproductos/masiva" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -189,12 +292,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Almacenamiento\Resources\views\rf\reubicacionproductos" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Almacenamiento\Resources\views\rf\almacenaje" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Almacenamiento\Resources\views\rf\almacenamiento" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views\rf\recepcion" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Despacho\Resources\views\rf\pedidos\preparacion" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views\estado_transito" />
-      <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views\dife_ingreso_recepción" />
-      <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views" />
-      <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views\carga_transporte" />
-      <recent name="E:\TRABAJOS\WMS\App\Modules\Recepcion\Resources\views\hoja_trabajo" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Almacenamiento\Resources\views\rf\reubicacionproductos\masiva" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Almacenamiento\Resources\views\rf\reubicacionproductos\normal" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Almacenamiento\Resources\views\rf\reubicacionproductos" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Despacho\Resources\views\rf\pedidos\reingreso" />
+      <recent name="E:\TRABAJOS\WMS\App\Modules\Despacho\Resources\views\rf\pedidos\entregaventana" />
     </key>
   </component>
   <component name="RunManager">
@@ -241,7 +351,19 @@
       <workItem from="1604403351989" duration="1180000" />
       <workItem from="1604445041570" duration="3048000" />
       <workItem from="1604496334703" duration="7384000" />
-      <workItem from="1605538585166" duration="18933000" />
+      <workItem from="1605538585166" duration="19050000" />
+      <workItem from="1605619289411" duration="76000" />
+      <workItem from="1605815037620" duration="6897000" />
+      <workItem from="1605881322498" duration="5490000" />
+      <workItem from="1605900034770" duration="13730000" />
+      <workItem from="1606237395524" duration="15108000" />
+      <workItem from="1606274554268" duration="2696000" />
+      <workItem from="1606277698563" duration="8841000" />
+      <workItem from="1606311557474" duration="5711000" />
+      <workItem from="1606338677248" duration="64000" />
+      <workItem from="1606432536240" duration="622000" />
+      <workItem from="1606657040424" duration="12700000" />
+      <workItem from="1606693191058" duration="8364000" />
     </task>
     <task id="LOCAL-00001" summary="implementacion del panel de control">
       <created>1603832863806</created>
@@ -360,6 +482,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604354285629" />
+    <state x="443" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606695314043">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="443" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1606695314043" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604094576908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -376,6 +502,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1605541204878" />
+    <state x="485" y="122" key="NewPhpClassDialog" timestamp="1606695363733">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="485" y="122" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1606695363733" />
     <state x="109" y="0" key="SettingsEditor" timestamp="1603995542766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -388,5 +518,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1603947935323" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1606244534903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1606244534903" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606241351722">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606241351722" />
   </component>
 </project>

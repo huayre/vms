@@ -15,7 +15,7 @@ class AlmacenamientoServiceProvider extends ServiceProvider
     /**
      * @var string $moduleNameLower
      */
-    protected $moduleNameLower = 'almacenamiento';
+    protected $moduleNameLower = 'almacenaje';
 
     /**
      * Boot the application events.

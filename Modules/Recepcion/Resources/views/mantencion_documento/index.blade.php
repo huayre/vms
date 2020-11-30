@@ -1,8 +1,8 @@
 @extends('template.index')
 
 @section('header_content')
-    @include('recepcion::mantencion_documento.modal_crear')
-    @include('recepcion::mantencion_documento.modal_editar')
+    @include('recepcionarticulos::mantencion_documento.modal_crear')
+    @include('recepcionarticulos::mantencion_documento.modal_editar')
     <div class="row mb-2">
         <div class="col-sm-6">
             <h1 class="m-0 text-dark"></h1>

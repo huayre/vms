@@ -190,5 +190,5 @@
 @endsection
 
 @section('script')
-  <script src="{{ Module::asset('almacenamiento:js/movimiento_mensual.js') }}"></script>
+  <script src="{{ Module::asset('almacenaje:js/movimiento_mensual.js') }}"></script>
 @endsection
