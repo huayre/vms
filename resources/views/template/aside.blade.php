@@ -543,8 +543,12 @@
                         </li>
                     </ul>
                 </li>
-
-
+                <li class="nav-item">
+                    <a href="{{route('rf')}}" class="nav-link">
+                        <i class="nav-icon fas fa-copy"></i>
+                        <p>Aplicativo RF</p>
+                    </a>
+                </li>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->
